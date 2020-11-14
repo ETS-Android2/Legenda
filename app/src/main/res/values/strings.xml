@@ -12,13 +12,15 @@
     <string name="designer">Designers</string>
     <string name="des1">Agus Wahyu Setiawan</string>
     <string name="dess">Agus Wahyu Setiawan\nJefanya Givenfirsta\nRavica Hayati\nMuhammad Bayu Permana Putra\nNara Bagus Darmawan</string>
+    <string name="supers">Supervisors</string>
+    <string name="supervisors">Pak Wandy\n Ibu Nuno</string>
     <string name="storyTextBegin">This is the time when you seriously play games and read this text to understand the storyline of the game.
     Since this game has given you the power to shape your story, in which side you want to shape the story?</string>
-    <string name="storyText1.1">Ok, you choose to be a hero. There are main heroes, who really want the praise, even get written in history.
+    <string name="storyText1.1">OK, you choose to be a hero. There are main heroes, who really want the praise, even get written in history.
     But there are also \'side\' heroes who doesn\'t get any spotlight in the story. Which kind of hero that you want to have?</string>
     <string name="storyText1.2">If you want to be a villain, what kind of villain that you wish you want to be? A villain who seeks for world domination,
     or a villain who gets betrayed by the world?</string>
-    <string name="storyText2">Ok, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
+    <string name="storyText2">OK, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
     One thing that is really sure, is that these pages will going to change, for sure.</string>
     <string name="storyChoiceBegin">Being a Hero is my way of life!</string>
     <string name="storyChoiceBegin2">I\'m bored to be a hero. I want to be a villain!</string>
