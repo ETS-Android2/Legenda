@@ -7,6 +7,7 @@
     android:background="#160203"
     tools:context=".GameScreenYudis4A">
 
+
     <TextView
         android:id="@+id/storyText"
         android:layout_width="0dp"
@@ -23,55 +24,26 @@
         app:layout_constraintVertical_bias="0.78" />
 
     <Button
-        android:id="@+id/buttonBeginC1"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="16dp"
-        android:alpha="0"
-        android:backgroundTint="#A9A9A9"
-        android:onClick="selectChoice1"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyText" />
-
-    <Button
         android:id="@+id/buttonBeginC2"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="12dp"
         android:layout_marginEnd="16dp"
         android:alpha="0"
         android:backgroundTint="#A9A9A9"
         android:onClick="selectChoice2"
         android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBeginC1" />
-
-    <TextView
-        android:id="@+id/textBeginC1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/storyChoice1.1"
-        android:textColor="#3BF607"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/buttonBeginC1" />
+        app:layout_constraintTop_toBottomOf="@+id/storyText" />
 
     <TextView
         android:id="@+id/textBeginC2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/storyChoice1.12"
+        android:text="@string/storyNext"
         android:textAlignment="center"
         android:textColor="#3BF607"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC2"
@@ -80,14 +52,4 @@
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC2"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC2"
         app:layout_constraintVertical_bias="0.545" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="221dp"
-        android:layout_height="149dp"
-        android:text="BIGBLUEBUTTON"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

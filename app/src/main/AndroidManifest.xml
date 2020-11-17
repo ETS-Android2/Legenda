@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Legend">
-        <activity android:name=".test"></activity>
         <activity android:name=".GameScreenYudisOver4" />
         <activity android:name=".GameScreenYudisOver3" />
         <activity android:name=".GameScreenYudisOver2" />
