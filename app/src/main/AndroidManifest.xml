@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Legend">
-        <activity android:name=".GameScreenYudis11B"/>
+        <activity android:name=".GameScreenYudisOver4"></activity>
+        <activity android:name=".GameScreenYudisOver3" />
+        <activity android:name=".GameScreenYudisOver2" />
+        <activity android:name=".GameScreenYudisOver1" />
+        <activity android:name=".GameScreenYudis13" />
+        <activity android:name=".GameScreenYudis12" />
+        <activity android:name=".GameScreenYudis11B" />
         <activity android:name=".GameScreenYudis11A" />
         <activity android:name=".GameScreenYudis10" />
         <activity android:name=".GameScreenYudis9B" />
