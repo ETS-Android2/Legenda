@@ -9,20 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Legend">
-        <activity android:name="com.example.legenda.GameScreen2c1" />
-        <activity android:name="com.example.legenda.GameScreen1c2" />
-        <activity android:name="com.example.legenda.GameScreen1c1" />
-        <activity android:name="com.example.legenda.GameScreenBegin" />
-        <activity android:name="com.example.legenda.CreditsScreen" />
-        <activity android:name="com.example.legenda.SettingsScreen" />
-        <activity android:name="com.example.legenda.MainActivity">
+        <activity android:name=".GameScreenasd11"/>
+        <activity android:name=".GameScreenasd10" />
+        <activity android:name=".GameScreenasd9" />
+        <activity android:name=".GameScreenasd8" />
+        <activity android:name=".GameScreenasd7" />
+        <activity android:name=".GameScreenasd6" />
+        <activity android:name=".GameScreenasd5" />
+        <activity android:name=".GameScreenasd4" />
+        <activity android:name=".GameScreenasd3" />
+        <activity android:name=".GameScreenasd2" />
+        <activity android:name=".GameScreenasd1" />
+        <activity android:name=".GameScreen2c1" />
+        <activity android:name=".GameScreen1c2" />
+        <activity android:name=".GameScreen1c1" />
+        <activity android:name=".GameScreenBegin" />
+        <activity android:name=".CreditsScreen" />
+        <activity android:name=".SettingsScreen" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.legenda.MainMenu" />
+        <activity android:name=".MainMenu" />
     </application>
 
 </manifest>
