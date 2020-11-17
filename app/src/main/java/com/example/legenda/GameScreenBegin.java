@@ -14,11 +14,11 @@ public class GameScreenBegin extends AppCompatActivity {
         setContentView(R.layout.activity_game_screen_begin);
     }
     public void selectChoice1(View view){//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreenBegin.this, GameScreen1c1.class);
+        Intent intent = new Intent(GameScreenBegin.this, GameScreenYudis1.class);
         startActivity(intent);
     }
     public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenBegin.this, GameScreen1c2.class);
+        Intent intent = new Intent(GameScreenBegin.this, GameScreenYudis2.class);
         startActivity(intent);
     }
 }

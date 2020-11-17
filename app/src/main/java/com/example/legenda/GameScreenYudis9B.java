@@ -6,19 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class GameScreen1c2 extends AppCompatActivity {
+public class GameScreenYudis9B extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen1c2);
+        setContentView(R.layout.activity_game_screen1c1);
     }
     public void selectChoice1(View view){//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreen1c2.this, GameScreen2c1.class);
+        Intent intent = new Intent(GameScreenYudis9B.this, GameScreenYudis3.class);
         startActivity(intent);
     }
     public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreen1c2.this, GameScreen2c1.class);
+        Intent intent = new Intent(GameScreenYudis9B.this, GameScreenYudis3.class);
         startActivity(intent);
     }
 }

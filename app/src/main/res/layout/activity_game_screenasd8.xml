@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#160203"
-    tools:context=".GameScreenasd8">
+    tools:context=".GameScreenYudis9B">
 
     <TextView
         android:id="@+id/storyText"
