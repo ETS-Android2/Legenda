@@ -11,7 +11,7 @@ public class GameScreenYudis11A extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen1c1);
+        setContentView(R.layout.activity_game_screen_yudis1);
     }
     public void selectChoice1(View view){//MoveLayout to next GameScreen c1
         Intent intent = new Intent(GameScreenYudis11A.this, GameScreenYudis3.class);

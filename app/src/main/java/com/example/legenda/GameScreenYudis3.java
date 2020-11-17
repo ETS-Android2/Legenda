@@ -11,7 +11,7 @@ public class GameScreenYudis3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen2c1);
+        setContentView(R.layout.activity_game_screen_yudis3);
     }
     public void GoBack(View view){//MoveLayout to MainMeny after game end
         Intent intent = new Intent(GameScreenYudis3.this, MainMenu.class);
