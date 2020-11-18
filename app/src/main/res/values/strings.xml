@@ -14,19 +14,29 @@
     <string name="dess">Agus Wahyu Setiawan\nJefanya Givenfirsta\nRavica Hayati\nMuhammad Bayu Permana Putra\nNara Bagus Darmawan</string>
     <string name="supers">Supervisors</string>
     <string name="supervisors">Pak Wandy\n Ibu Nuno</string>
-    <string name="storyTextBegin">This is the time when you seriously play games and read this text to understand the storyline of the game.
-    Since this game has given you the power to shape your story, in which side you want to shape the story?</string>
+    <string name="storyTextBegin">In this version, the application will be taken from Mahabharata Epic, and there are two characters to pick, which are Yudhistira and Duryudhana.
+    Now, do you love to be a hero like Yudhistira, or do you want to understand how villain like Duryudhana works out?</string>
     <string name="storyText1.1">OK, you choose to be a hero. There are main heroes, who really want the praise, even get written in history.
     But there are also \'side\' heroes who doesn\'t get any spotlight in the story. Which kind of hero that you want to have?</string>
     <string name="storyText1.2">If you want to be a villain, what kind of villain that you wish you want to be? A villain who seeks for world domination,
     or a villain who gets betrayed by the world?</string>
     <string name="storyText2">OK, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
     One thing that is really sure, is that these pages will going to change, for sure.</string>
-    <string name="storyChoiceBegin">Being a Hero is my way of life!</string>
-    <string name="storyChoiceBegin2">I\'m bored to be a hero. I want to be a villain!</string>
+    <string name="storyChoiceBegin">Yudhistira!</string>
+    <string name="storyChoiceBegin2">Duryudhana!</string>
     <string name="storyChoice1.1">OF COURSE I LOVE MAIN HERO!</string>
+    <string name="storyNext">Continue the story...</string>
     <string name="storyChoice1.12">Be different and be the side hero!</string>
     <string name="storyChoice1.2">I WANT POWER, I WANT WORLD DOMINATION!</string>
     <string name="storyChoice1.22">Since my spouse betrayed me, I\'m taking this type!</string>
     <string name="storyChoice2">Go back to the start!</string>
+    <string name="title_activity_game_screen_yudis13">activity_game_screen_yudis13</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

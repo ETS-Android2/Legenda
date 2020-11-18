@@ -7,7 +7,8 @@ import android.content.Intent;
 import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
-    private int splashTime=2000; // splash Screen time interval
+
+    private final int splashTime=2000; // splash Screen time interval
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
