@@ -4,8 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#160203"
+    android:background="@drawable/yudistira1"
     tools:context=".GameScreenYudis1">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/textbox"
+        app:layout_constraintBottom_toBottomOf="@+id/storyText"
+        app:layout_constraintEnd_toEndOf="@+id/storyText"
+        app:layout_constraintStart_toStartOf="@+id/storyText"
+        app:layout_constraintTop_toTopOf="@+id/storyText" />
 
     <TextView
         android:id="@+id/storyText"
@@ -14,7 +24,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/storyText1.1"
-        android:textColor="#ff7900"
+        android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -28,14 +38,14 @@
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:alpha="0"
-        android:backgroundTint="#A9A9A9"
+        android:background="@drawable/option_buttons"
         android:onClick="selectChoice2"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyText" />
+        app:layout_constraintTop_toBottomOf="@+id/storyText"
+        app:layout_constraintVertical_bias="0.519" />
 
     <TextView
         android:id="@+id/textBeginC2"
@@ -47,8 +57,7 @@
         android:textColor="#3BF607"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC2"
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC2"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC2"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC2"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintVertical_bias="0.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
