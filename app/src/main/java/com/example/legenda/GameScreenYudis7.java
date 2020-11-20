@@ -112,7 +112,7 @@ public class GameScreenYudis7 extends AppCompatActivity {
         mHomeWatcher.stopWatch();
     }
     public void nextChoice(View view){//MoveLayout to HomeScreen, since the development is not done yet.
-        Intent intent = new Intent(GameScreenYudis7.this, MainMenu.class);
+        Intent intent = new Intent(GameScreenYudis7.this, GameScreenYudis8.class);
         startActivity(intent);
     }
 }

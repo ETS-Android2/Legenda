@@ -111,12 +111,9 @@ public class GameScreenYudis11B extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
-    public void selectChoice1(View view){//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreenYudis11B.this, GameScreenYudis3.class);
-        startActivity(intent);
-    }
+
     public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenYudis11B.this, GameScreenYudis3.class);
+        Intent intent = new Intent(GameScreenYudis11B.this, GameScreenYudisOver1.class);
         startActivity(intent);
     }
 }

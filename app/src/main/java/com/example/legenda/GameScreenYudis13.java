@@ -9,6 +9,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
+import android.view.View;
 
 public class GameScreenYudis13 extends AppCompatActivity {
 
@@ -32,6 +33,7 @@ public class GameScreenYudis13 extends AppCompatActivity {
                     mServ.pauseMusic();
                 }
             }
+
             @Override
             public void onHomeLongPressed() {
                 if (mServ != null) {
@@ -44,11 +46,11 @@ public class GameScreenYudis13 extends AppCompatActivity {
 
     private boolean mIsBound = false;
     private MusicService mServ;
-    private ServiceConnection Scon =new ServiceConnection() {
+    private ServiceConnection Scon = new ServiceConnection() {
 
         public void onServiceConnected(ComponentName name, IBinder
                 binder) {
-            mServ = ((MusicService.ServiceBinder)binder).getService();
+            mServ = ((MusicService.ServiceBinder) binder).getService();
         }
 
         public void onServiceDisconnected(ComponentName name) {
@@ -56,16 +58,14 @@ public class GameScreenYudis13 extends AppCompatActivity {
         }
     };
 
-    void doBindService(){
-        bindService(new Intent(this,MusicService.class),
+    void doBindService() {
+        bindService(new Intent(this, MusicService.class),
                 Scon, Context.BIND_AUTO_CREATE);
         mIsBound = true;
     }
 
-    void doUnbindService()
-    {
-        if(mIsBound)
-        {
+    void doUnbindService() {
+        if (mIsBound) {
             unbindService(Scon);
             mIsBound = false;
         }
@@ -106,8 +106,18 @@ public class GameScreenYudis13 extends AppCompatActivity {
 
         doUnbindService();
         Intent music = new Intent();
-        music.setClass(this,MusicService.class);
+        music.setClass(this, MusicService.class);
         stopService(music);
         mHomeWatcher.stopWatch();
+    }
+
+    public void selectChoice1(View view) {//MoveLayout to next GameScreen c1
+        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver1.class);
+        startActivity(intent);
+    }
+
+    public void selectChoice2(View view) {//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver1.class);
+        startActivity(intent);
     }
 }

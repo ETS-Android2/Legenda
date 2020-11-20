@@ -120,4 +120,8 @@ public class GameScreenBegin extends AppCompatActivity {
         Intent intent = new Intent(GameScreenBegin.this, GameScreenYudis2.class);
         startActivity(intent);
     }
+    public void comingsoon(View view){//No story yet.
+        Intent intent = new Intent(GameScreenBegin.this, ComingSoon.class);
+        startActivity(intent);
+    }
 }
