@@ -16,15 +16,26 @@
     <string name="supervisors">Pak Wandy\n Ibu Nuno</string>
     <string name="storyTextBegin">In this version, the application will be taken from Mahabharata Epic, and there are two characters to pick, which are Yudhistira and Duryudhana.
     Now, do you love to be a hero like Yudhistira, or do you want to understand how villain like Duryudhana works out?</string>
-    <string name="storyText1.1">OK, you choose to be a hero. There are main heroes, who really want the praise, even get written in history.
-    But there are also \'side\' heroes who doesn\'t get any spotlight in the story. Which kind of hero that you want to have?</string>
-    <string name="storyText1.2">If you want to be a villain, what kind of villain that you wish you want to be? A villain who seeks for world domination,
-    or a villain who gets betrayed by the world?</string>
+    <string name="storyTextYudistira1">Once upon a time, Yudistira, the king of Indraprasta, got an invitation to play a dice game by Duryudana, the prince of his prideful kingdom, Hastinapura.
+    Since he is respectful to Duryudana, he accepted the invitation, and come to Hastinapura right away.</string>
+    <string name="storyTextYudistira2">Yudistira arrived at the front gate of Hastinapura. He got a warm welcome by Duryudana himself, and he is ready to play the dice around in Hastinapura.</string>
+    <string name="storyTextYudistira3">Inside the palace, Yudistira and Duryudana will compete within each other in the dice game. However, Sangkuni, as the advisor for both players and as the dice thrower in the game,
+    states that at least there is one thing that should be put in the bet. As Yudistira, what kind of thing that you choose to bet in the game?</string>
+    <string name="storyTextYudistira4a">And the bet goes on! Sangkuni throw the dice...</string>
+    <string name="storyTextYudistira4b">Duryudana insists that Yudistira should bet something so that he can play the dice game. If Yudistira does not bet, he said that he will kick you out from the game.
+    What will Yudistira said?</string>
+    <string name="storyTextYudistira5">And Sangkuni play dirty with the dice! You have lost the game. Because he had lost his weapons, he choose not to stop, and continue playing the dice game.</string>
+    <string name="storyTextYudistira6">However, to continue the game, Yudistira must bet on something greater than his armors. Because of that, he choose to bet on his kingdom\'s wealth!</string>
+    <string name="storyText1.1">The storytext creation is still ongoing/onprogress.</string>
     <string name="storyText2">OK, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
     One thing that is really sure, is that these pages will going to change, for sure.</string>
-    <string name="storyChoiceBegin">Yudhistira!</string>
+    <string name="storyChoice1.1">This will be deleted later when the game development for this chapter is finished.</string>
+    <string name="storyChoiceBegin">Yudistira!</string>
     <string name="storyChoiceBegin2">Duryudhana!</string>
-    <string name="storyChoice1.1">OF COURSE I LOVE MAIN HERO!</string>
+    <string name="storyChoiceYudistira3a">I\'ll bet my weapons and armors.</string>
+    <string name="storyChoiceYudistira3b">I choose not to bet.</string>
+    <string name="storyChoiceYudistira4a">Okay then, I\'ll bet my weapons and armors.</string>
+    <string name="storyChoiceYudistira4b">I thought we were just playing for fun, without any bets! I\'m leaving!</string>
     <string name="storyNext">Continue the story...</string>
     <string name="storyChoice1.12">Be different and be the side hero!</string>
     <string name="storyChoice1.2">I WANT POWER, I WANT WORLD DOMINATION!</string>
@@ -37,6 +48,4 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 </resources>

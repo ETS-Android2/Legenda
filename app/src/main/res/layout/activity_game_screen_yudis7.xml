@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/yudistira8"
-    tools:context=".GameScreenYudis5">
+    tools:context=".GameScreenYudis7">
 
     <TextView
         android:id="@+id/storyText"
@@ -30,7 +30,7 @@
         android:layout_marginEnd="16dp"
         android:alpha="0"
         android:backgroundTint="#A9A9A9"
-        android:onClick="selectChoice2"
+        android:onClick="nextChoice"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
