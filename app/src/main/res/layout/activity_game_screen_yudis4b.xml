@@ -7,6 +7,32 @@
     android:background="@drawable/yudistira5"
     tools:context=".GameScreenYudis4B">
 
+    <ImageView
+        android:id="@+id/buttonImage2"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/textbox"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/buttonImage1"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/textbox"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -53,8 +79,10 @@
 
     <TextView
         android:id="@+id/textBeginC3"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:gravity="center"
         android:text="@string/storyChoiceYudistira4a"
         android:textAlignment="center"
@@ -81,8 +109,10 @@
 
     <TextView
         android:id="@+id/textBeginC2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="16dp"
         android:gravity="center"
         android:text="@string/storyChoiceYudistira4b"
         android:textAlignment="center"

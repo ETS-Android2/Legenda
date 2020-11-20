@@ -24,8 +24,8 @@
 
     <TextView
         android:id="@+id/textBeginC1"
-        android:layout_width="104dp"
-        android:layout_height="54dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:gravity="center_horizontal|center_vertical"
         android:text="@string/storyChoiceBegin"
         android:textColor="#3BF607"
@@ -53,8 +53,8 @@
 
     <TextView
         android:id="@+id/textBeginC2"
-        android:layout_width="115dp"
-        android:layout_height="59dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:gravity="center"
         android:text="@string/storyChoiceBegin2"
         android:textAlignment="center"
