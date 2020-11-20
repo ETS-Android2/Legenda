@@ -117,7 +117,7 @@ public class GameScreenYudis9B extends AppCompatActivity {
         startActivity(intent);
     }
     public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenYudis9B.this, GameScreenYudisOver1.class);
+        Intent intent = new Intent(GameScreenYudis9B.this, GameScreenYudis13.class);
         startActivity(intent);
     }
 }

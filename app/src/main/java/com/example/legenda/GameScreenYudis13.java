@@ -112,12 +112,12 @@ public class GameScreenYudis13 extends AppCompatActivity {
     }
 
     public void selectChoice1(View view) {//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver1.class);
+        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver3.class);
         startActivity(intent);
     }
 
     public void selectChoice2(View view) {//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver1.class);
+        Intent intent = new Intent(GameScreenYudis13.this, GameScreenYudisOver4.class);
         startActivity(intent);
     }
 }

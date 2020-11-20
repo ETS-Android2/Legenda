@@ -62,7 +62,6 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC2"
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC2"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC2"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC2" />
 

@@ -112,8 +112,8 @@ public class GameScreenYudis11B extends AppCompatActivity {
         mHomeWatcher.stopWatch();
     }
 
-    public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenYudis11B.this, GameScreenYudisOver1.class);
+    public void nextChoice(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenYudis11B.this, GameScreenYudisOver2.class);
         startActivity(intent);
     }
 }

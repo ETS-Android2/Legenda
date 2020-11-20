@@ -7,6 +7,7 @@
     <string name="back">BACK</string>
     <string name="on">ON</string>
     <string name="off">OFF</string>
+    <string name="exit">EXIT</string>
     <string name="programmer">Programmers</string>
     <string name="progs">Andi Arizal\nSabili B. Lopa\nDaniel Stephen</string>
     <string name="designer">Designers</string>
@@ -21,11 +22,21 @@
     <string name="storyTextYudistira2">Yudistira arrived at the front gate of Hastinapura. He got a warm welcome by Duryudana himself, and he is ready to play the dice around in Hastinapura.</string>
     <string name="storyTextYudistira3">Inside the palace, Yudistira and Duryudana will compete within each other in the dice game. However, Sangkuni, as the advisor for both players and as the dice thrower in the game,
     states that at least there is one thing that should be put in the bet. As Yudistira, what kind of thing that you choose to bet in the game?</string>
-    <string name="storyTextYudistira4a">And the bet goes on! Sangkuni throw the dice...</string>
+    <string name="storyTextYudistira4a">And the first bet goes on! Sangkuni throw the dice...</string>
     <string name="storyTextYudistira4b">Duryudana insists that Yudistira should bet something so that he can play the dice game. If Yudistira does not bet, he said that he will kick you out from the game.
     What will Yudistira said?</string>
-    <string name="storyTextYudistira5">And Sangkuni play dirty with the dice! You have lost the game. Because he had lost his weapons, he choose not to stop, and continue playing the dice game.</string>
+    <string name="storyTextYudistira5">And you have lost the game. Because he had lost his weapons, he choose not to stop, and continue playing the dice game.</string>
     <string name="storyTextYudistira6">However, to continue the game, Yudistira must bet on something greater than his armors. Because of that, he choose to bet on his kingdom\'s wealth!</string>
+    <string name="storyTextYudistira7">The second bet goes on! For the second time, Yudistira lost again. His kingdom\'s wealth fall into Duryudana\'s hands.</string>
+    <string name="storyTextYudistira8">Yudistira is still pretty annoyed, but he still trying to save his kingdom\'s wealth. All he has right now is the Kurujanggala Kingdom. Put the kingdom on bet?</string>
+    <string name="storyTextYudistira9a">Third bet for the best! Another throw for the dice, and Yudistira lost, again... Kurujanggala Kingdom fall into Duryudana\'s hands</string>
+    <string name="storyTextYudistira9b">Sangkuni said: "Just have another bet... If you win, your lost wealth will be totally yours again!"</string>
+    <string name="storyTextYudistira10">Duryudana said: "Now, I'm challenging you for one last time! Put your brothers and sisters on the bet!" What you\'ll do as Yudistira?</string>
+    <string name="storyTextYudistira11a">The final bet has been settled! Sangkuni throw the dice again, and Yudistira lost again (0% win rate, sad). Now his brothers and his wife is in Duryudana\'s hands.</string>
+    <string name="storyTextYudistira11b">Yudistira fights with Duryudana. Unfortunately, Yudistira failed to take everything back by force. King Drestarastra separate them and tell Yudistira to go back home. </string>
+    <string name="storyTextYudistira12">Since Drestarastra sees destruction and disaster will come upon his children, he choose to return everything that Yudistira has put on the bet already.</string>
+    <string name="storyTextYudistira13">Then, what will you do?</string>
+    <string name="end">THE END</string>
     <string name="storyText1.1">The storytext creation is still ongoing/onprogress.</string>
     <string name="storyText2">OK, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
     One thing that is really sure, is that these pages will going to change, for sure.</string>
@@ -36,12 +47,27 @@
     <string name="storyChoiceYudistira3b">I choose not to bet.</string>
     <string name="storyChoiceYudistira4a">Okay then, I\'ll bet my weapons and armors.</string>
     <string name="storyChoiceYudistira4b">I thought we were just playing for fun, without any bets! I\'m leaving!</string>
+    <string name="storyChoiceYudistira8a">I\'ll never stop until I take back my kingdom!</string>
+    <string name="storyChoiceYudistira8b">I need to stop! I can\'t put myself in a high risk!</string>
+    <string name="storyChoiceYudistira9a">Hope the odds are on me this time...</string>
+    <string name="storyChoiceYudistira9b">No! That\'s enough for me! I\'m not losing again!</string>
+    <string name="storyChoiceYudistira10a">This is too big... but I know I can take all my wealth back by doing this.</string>
+    <string name="storyChoiceYudistira10b">NOT MY BROTHERS AND WIVES! I\'M TAKING THEM BACK BY FORCE!</string>
+    <string name="storyChoiceYudistira13a">I\'M TAKING BACK MY WEALTH FROM YOU, DURYUDANA!</string>
+    <string name="storyChoiceYudistira13b">I know I shouldn\'t have received the invitation...</string>
     <string name="storyNext">Continue the story...</string>
     <string name="storyChoice1.12">Be different and be the side hero!</string>
     <string name="storyChoice1.2">I WANT POWER, I WANT WORLD DOMINATION!</string>
     <string name="storyChoice1.22">Since my spouse betrayed me, I\'m taking this type!</string>
     <string name="storyChoice2">Go back to the start!</string>
     <string name="title_activity_game_screen_yudis13">activity_game_screen_yudis13</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="the_end">THE END</string>
+    <string name="over_reason1">You have been kicked out from the game.</string>
+    <string name="over_reason2">You\'re going home empty handed.</string>
+    <string name="over_reason3">You\'re going home with regret and lost.</string>
+    <string name="over_reason4">You\'re failed to take what\'s yours, and you\'re getting kicked from the game.</string>
+
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

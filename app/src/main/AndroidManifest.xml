@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Legend">
-        <activity android:name=".ComingSoon"></activity>
+        <activity android:name=".TheEnd"></activity>
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity android:name=".ComingSoon" />
         <activity android:name=".GameScreenYudisOver4" />
         <activity android:name=".GameScreenYudisOver3" />
         <activity android:name=".GameScreenYudisOver2" />

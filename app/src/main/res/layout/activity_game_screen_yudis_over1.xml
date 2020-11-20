@@ -9,41 +9,42 @@
 
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/textbox"
-        app:layout_constraintBottom_toBottomOf="@+id/storyText"
-        app:layout_constraintEnd_toEndOf="@+id/storyText"
-        app:layout_constraintStart_toStartOf="@+id/storyText"
-        app:layout_constraintTop_toTopOf="@+id/storyText" />
-
-    <TextView
-        android:id="@+id/storyText"
-        android:layout_width="0dp"
+        android:id="@+id/game_over"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:text="@string/storyText2"
-        android:textColor="#ffffff"
+        android:text="@string/game_over"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.78" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/over_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/over_reason1"
+        android:textColor="@android:color/holo_green_light"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_over" />
 
     <Button
-        android:id="@+id/buttonBeginC2"
+        android:id="@+id/buttonBeginC1"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:onClick="goBack"
+        android:layout_marginBottom="136dp"
         android:alpha="0"
+        android:onClick="goBack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/storyText"
         app:layout_constraintVertical_bias="0.519" />
@@ -56,9 +57,9 @@
         android:text="@string/storyNext"
         android:textAlignment="center"
         android:textColor="#3BF607"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC2"
-        app:layout_constraintEnd_toEndOf="@+id/buttonBeginC2"
-        app:layout_constraintStart_toStartOf="@+id/buttonBeginC2"
-        app:layout_constraintTop_toTopOf="@+id/buttonBeginC2"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC1"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
+        app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"
+        app:layout_constraintTop_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintVertical_bias="0.5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
