@@ -1,7 +1,5 @@
 package com.example.legenda;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -11,14 +9,18 @@ import android.os.IBinder;
 import android.os.PowerManager;
 import android.view.View;
 
-public class GameScreenBegin extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class GameScreenDuryu11 extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
+    GameScreenDuryu10A gs10A = new GameScreenDuryu10A();
+    GameScreenDuryu10B gs10B = new GameScreenDuryu10B();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen_begin);
+        setContentView(R.layout.activity_game_screen_duryu11);
 
         doBindService();
         Intent music = new Intent();
@@ -27,6 +29,7 @@ public class GameScreenBegin extends AppCompatActivity {
 
         mHomeWatcher = new HomeWatcher(this);
         mHomeWatcher.setOnHomePressedListener(new HomeWatcher.OnHomePressedListener() {
+
             @Override
             public void onHomePressed() {
                 if (mServ != null) {
@@ -111,14 +114,12 @@ public class GameScreenBegin extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
-
-    public void selectChoice1(View view){//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreenBegin.this, GameScreenYudis1.class);
+    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
+        Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
         startActivity(intent);
     }
-    public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenBegin.this, GameScreenDuryu1.class);
+    /*public void selectChoice2(View view){
+        Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
         startActivity(intent);
-    }
-
+    }*/
 }

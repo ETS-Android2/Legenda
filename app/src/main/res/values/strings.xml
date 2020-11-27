@@ -37,6 +37,24 @@
     <string name="storyTextYudistira11b">Yudistira fights with Duryudana. Unfortunately, Yudistira failed to take everything back by force. King Drestarastra separate them and tell Yudistira to go back home. </string>
     <string name="storyTextYudistira12">Since Drestarastra sees destruction and disaster will come upon his children, he choose to return everything that Yudistira has put on the bet already.</string>
     <string name="storyTextYudistira13">Then, what will you do?</string>
+    <string name="storyTextDuryudana1">Yudistira come back from the punishment he received. Duryudana refused to have peaceful talk.</string>
+    <string name="storyTextDuryudana2">No peace, war happened</string>
+    <string name="storyTextDuryudana3">Come to Kresna to ask for help!</string>
+    <string name="storyTextDuryudana4">Kresna is sleeping, where you will have your seat?</string>
+    <string name="storyTextDuryudana5a">Arjuna come and sit below Kresna</string>
+    <string name="storyTextDuryudana5b">Arjuna come and sit beside Kresna</string>
+    <string name="storyTextDuryudana6">Kresna woke up! Tell him you need reinforcements!</string>
+    <string name="storyTextDuryudana7">"Kresna, a war will happen! I need reinforcmements! Help me!"</string>
+    <string name="storyTextDuryudana8a">But I see Arjuna first! Tell me if you come first!</string>
+    <string name="storyTextDuryudana8b">Well, I see you first rather than Arjuna</string>
+    <string name="storyTextDuryudana9a">I come before Arjuna! Give me reinforcements!</string>
+    <string name="storyTextDuryudana9b">Kresna, give me reinforcements! Big war incoming!</string>
+    <string name="storyTextDuryudana10a">All right, I\'ll help you both. 10000 army or myself for strategy?</string>
+    <string name="storyTextDuryudana10b">All right, I\'ll help you. 10000 army or myself for strategy?</string>
+    <string name="storyTextDuryudana11">Duryudana loses. He\'s retreating at a cave.</string>
+    <string name="storyTextDuryudana12a">Duryudana challenges Pandawa for 1v1</string>
+    <string name="storyTextDuryudana12b">Duryudana asks Kresna for assistance for defeating Pandawa</string>
+    <string name="storyTextDuryudana13">Duryudana defeat Pandawa</string>
     <string name="end">THE END</string>
     <string name="storyText1.1">The storytext creation is still ongoing/onprogress.</string>
     <string name="storyText2">OK, since I\'m running out of ideas, I want to tell that the demonstration ends here, no matter which choice that you are picking.
@@ -56,7 +74,16 @@
     <string name="storyChoiceYudistira10b">NOT MY BROTHERS AND WIVES! I\'M TAKING THEM BACK BY FORCE!</string>
     <string name="storyChoiceYudistira13a">I\'M TAKING BACK MY WEALTH FROM YOU, DURYUDANA!</string>
     <string name="storyChoiceYudistira13b">I know I shouldn\'t have received the invitation...</string>
+
+    <string name="storyChoiceDuryudana4a">Beside head</string>
+    <string name="storyChoiceDuryudana4b">Beside leg</string>
+    <string name="storyChoiceDuryudana10a">10000 army</string>
+    <string name="storyChoiceDuryudana10b">Kresna</string>
+    <string name="storyChoiceDuryudana12a">Duryudana challenges!</string>
+    <string name="storyChoiceDuryudana12b">Duryudana asks!</string>
+
     <string name="storyNext">Continue the story...</string>
+
     <string name="storyChoice1.12">Be different and be the side hero!</string>
     <string name="storyChoice1.2">I WANT POWER, I WANT WORLD DOMINATION!</string>
     <string name="storyChoice1.22">Since my spouse betrayed me, I\'m taking this type!</string>

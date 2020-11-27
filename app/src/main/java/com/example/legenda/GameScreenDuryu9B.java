@@ -1,7 +1,5 @@
 package com.example.legenda;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -11,14 +9,16 @@ import android.os.IBinder;
 import android.os.PowerManager;
 import android.view.View;
 
-public class GameScreenBegin extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class GameScreenDuryu9B extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen_begin);
+        setContentView(R.layout.activity_game_screen_duryu9b);
 
         doBindService();
         Intent music = new Intent();
@@ -112,13 +112,8 @@ public class GameScreenBegin extends AppCompatActivity {
         mHomeWatcher.stopWatch();
     }
 
-    public void selectChoice1(View view){//MoveLayout to next GameScreen c1
-        Intent intent = new Intent(GameScreenBegin.this, GameScreenYudis1.class);
+    public void nextChoice(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenDuryu9B.this, GameScreenDuryu10B.class);
         startActivity(intent);
     }
-    public void selectChoice2(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenBegin.this, GameScreenDuryu1.class);
-        startActivity(intent);
-    }
-
 }
