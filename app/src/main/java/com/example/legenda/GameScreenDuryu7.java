@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -15,6 +16,7 @@ public class GameScreenDuryu7 extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
     GameScreenDuryu4 gs4 = new GameScreenDuryu4();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,8 +113,13 @@ public class GameScreenDuryu7 extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
+    public boolean getBoolean(String key){
+        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
+        return sp.getBoolean(key, false);
+    }
     public void nextChoice(View view){//MoveLayout to HomeScreen, since the development is not done yet.
-        if(gs4.isBesideHead()){
+        boolean isBesideHead = getBoolean("isBeside");
+        if(isBesideHead){
             Intent intent = new Intent(GameScreenDuryu7.this, GameScreenDuryu8A.class);
             startActivity(intent);
         }

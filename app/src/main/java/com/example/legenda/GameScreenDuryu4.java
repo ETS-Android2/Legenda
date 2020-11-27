@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -15,6 +16,7 @@ public class GameScreenDuryu4 extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
     private boolean besideHead;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -115,15 +117,18 @@ public class GameScreenDuryu4 extends AppCompatActivity {
 
     public void selectChoice1(View view){//MoveLayout to MainMeny after game end
         Intent intent = new Intent(GameScreenDuryu4.this, GameScreenDuryu5A.class);
-        besideHead = true;
+        saveBoolean("isBeside", true);
         startActivity(intent);
     }
     public void selectChoice2(View view){
         Intent intent = new Intent(GameScreenDuryu4.this, GameScreenDuryu5B.class);
-        besideHead = false;
+        saveBoolean("isBeside", false);
         startActivity(intent);
     }
-    public boolean isBesideHead(){
-        return besideHead;
+    public void saveBoolean(String key, boolean value){
+        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sp.edit();
+        editor.putBoolean(key, value);
+        editor.commit();
     }
 }

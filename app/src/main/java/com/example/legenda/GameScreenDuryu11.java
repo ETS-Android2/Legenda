@@ -4,6 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -114,10 +115,23 @@ public class GameScreenDuryu11 extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
-    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
-        Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
-        startActivity(intent);
+    public boolean getBoolean(String key){
+        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
+        return sp.getBoolean(key, false);
     }
+    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
+        boolean isKresna = getBoolean("isKresna");
+        if(isKresna){
+            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
+            startActivity(intent);
+        }
+        else{
+            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
+            startActivity(intent);
+        }
+
+    }
+
     /*public void selectChoice2(View view){
         Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
         startActivity(intent);
