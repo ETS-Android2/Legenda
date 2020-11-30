@@ -9,15 +9,15 @@
 
     <ImageView
         android:id="@+id/playImage"
-        android:layout_width="118dp"
-        android:layout_height="119dp"
+        android:layout_width="171dp"
+        android:layout_height="69dp"
+        android:background="@drawable/playbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598"
-        app:srcCompat="@drawable/playbutton" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <ImageView
         android:id="@+id/mainMenuLogo"
@@ -31,41 +31,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.233" />
 
-    <Button
+
+    <ImageButton
         android:id="@+id/creditsButton"
-        android:layout_width="wrap_content"
+        android:layout_width="166dp"
         android:layout_height="70dp"
-        android:background="@android:color/transparent"
+        android:background="@drawable/credits"
         android:onClick="MoveCredits"
-        android:text="@string/credits"
-        android:textColor="#ff7900"
-        android:textSize="20sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
-    <ImageView
-        android:id="@+id/setting"
-        android:layout_width="92dp"
-        android:layout_height="92dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/creditsButton"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/playImage"
-        app:layout_constraintVertical_bias="0.896"
-        app:srcCompat="@drawable/settings" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <Button
         android:id="@+id/playButton"
-        android:onClick="PlayGame"
-        android:layout_width="118dp"
-        android:layout_height="119dp"
+        android:layout_width="171dp"
+        android:layout_height="69dp"
         android:alpha="0"
+        android:onClick="PlayGame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -73,12 +58,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.598" />
 
-    <Button
+    <ImageButton
         android:id="@+id/settingButton"
-        android:onClick="MoveSettings"
         android:layout_width="92dp"
         android:layout_height="92dp"
-        android:alpha="0"
+        android:background="@drawable/settings"
+        android:onClick="MoveSettings"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/creditsButton"
         app:layout_constraintHorizontal_bias="0.089"
