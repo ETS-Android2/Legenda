@@ -9,63 +9,63 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Legend">
-        <activity android:name=".TheEnd"></activity>
+        <activity android:name=".TheEnd" android:screenOrientation="portrait"/>
 
         <service
             android:name=".MusicService"
             android:enabled="true" />
 
-        <activity android:name=".ComingSoon" />
-        <activity android:name=".GameScreenYudisOver4" />
-        <activity android:name=".GameScreenYudisOver3" />
-        <activity android:name=".GameScreenYudisOver2" />
-        <activity android:name=".GameScreenYudisOver1" />
-        <activity android:name=".GameScreenYudis13" />
-        <activity android:name=".GameScreenYudis12" />
-        <activity android:name=".GameScreenYudis11B" />
-        <activity android:name=".GameScreenYudis11A" />
-        <activity android:name=".GameScreenYudis10" />
-        <activity android:name=".GameScreenYudis9B" />
-        <activity android:name=".GameScreenYudis9A" />
-        <activity android:name=".GameScreenYudis8" />
-        <activity android:name=".GameScreenYudis7" />
-        <activity android:name=".GameScreenYudis6" />
-        <activity android:name=".GameScreenYudis5" />
-        <activity android:name=".GameScreenYudis4B" />
-        <activity android:name=".GameScreenYudis4A" />
-        <activity android:name=".GameScreenYudis3" />
-        <activity android:name=".GameScreenYudis2" />
-        <activity android:name=".GameScreenYudis1" />
-        <activity android:name=".GameScreenDuryuOver" />
-        <activity android:name=".GameScreenDuryu13" />
-        <activity android:name=".GameScreenDuryu12B" />
-        <activity android:name=".GameScreenDuryu12A" />
-        <activity android:name=".GameScreenDuryu11" />
-        <activity android:name=".GameScreenDuryu10B" />
-        <activity android:name=".GameScreenDuryu10A" />
-        <activity android:name=".GameScreenDuryu9B" />
-        <activity android:name=".GameScreenDuryu9A" />
-        <activity android:name=".GameScreenDuryu8B" />
-        <activity android:name=".GameScreenDuryu8A" />
-        <activity android:name=".GameScreenDuryu7" />
-        <activity android:name=".GameScreenDuryu6" />
-        <activity android:name=".GameScreenDuryu5B" />
-        <activity android:name=".GameScreenDuryu5A" />
-        <activity android:name=".GameScreenDuryu4" />
-        <activity android:name=".GameScreenDuryu3" />
-        <activity android:name=".GameScreenDuryu2" />
-        <activity android:name=".GameScreenDuryu1" />
-        <activity android:name=".GameScreenBegin" />
-        <activity android:name=".CreditsScreen" />
-        <activity android:name=".SettingsScreen" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ComingSoon" android:screenOrientation="portrait" />
+        <activity android:name=".GameScreenYudisOver4" android:screenOrientation="portrait" />
+        <activity android:name=".GameScreenYudisOver3" android:screenOrientation="portrait" />
+        <activity android:name=".GameScreenYudisOver2" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudisOver1" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis13" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis12" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis11B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis11A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis10" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis9B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis9A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis8" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis7" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis6" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis5" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis4B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis4A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis3" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis2" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenYudis1" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryuOver" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu13" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu12B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu12A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu11" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu10B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu10A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu9B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu9A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu8B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu8A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu7" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu6" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu5B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu5A" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu4" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu3" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu2" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu1" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenBegin" android:screenOrientation="portrait"/>
+        <activity android:name=".CreditsScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".SettingsScreen" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainMenu" />
+        <activity android:name=".MainMenu" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
