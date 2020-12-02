@@ -14,8 +14,10 @@
     <string name="designer">Designers</string>
     <string name="des1">Agus Wahyu Setiawan</string>
     <string name="dess">Agus Wahyu Setiawan\nJefanya Givenfirsta\nRavica Hayati\nMuhammad Bayu Permana Putra\nNara Bagus Darmawan</string>
-    <string name="supers">Music by</string>
-    <string name="supervisors">Alif Maulana</string>
+    <string name="musicby">Music by</string>
+    <string name="musician">Alif Maulana</string>
+    <string name="supers">THANKS TO:</string>
+    <string name="supervisors">WDY\nN1</string>
     <string name="storyTextBegin">In this version, the application will be taken from Mahabharata Epic, and there are two characters to pick, which are Yudhistira and Duryudhana.
     Now, do you love to be a hero like Yudhistira, or do you want to understand how villain like Duryudhana works out?</string>
     <string name="storyTextYudistira1">
