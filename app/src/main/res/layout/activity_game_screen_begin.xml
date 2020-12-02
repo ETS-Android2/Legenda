@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/play"
         android:text="@string/storyTextBegin"
         android:textColor="#ff7900"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,59 +23,28 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.20" />
 
-    <TextView
-        android:id="@+id/textBeginC1"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="center_horizontal|center_vertical"
-        android:text="@string/storyChoiceBegin"
-        android:textColor="#3BF607"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC1"
-        app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
-        app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"
-        app:layout_constraintTop_toTopOf="@+id/buttonBeginC1" />
-
-    <Button
+    <ImageButton
         android:id="@+id/buttonBeginC1"
-        android:layout_width="152dp"
-        android:layout_height="119dp"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
         android:layout_marginStart="40dp"
         android:layout_marginEnd="15dp"
-        android:alpha="0"
-        android:backgroundTint="#A9A9A9"
+        android:background="@drawable/yudistira_choice"
         android:onClick="selectChoice1"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonBeginC2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/storyText"
         app:layout_constraintVertical_bias="0.20" />
 
-    <TextView
-        android:id="@+id/textBeginC2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:gravity="center"
-        android:text="@string/storyChoiceBegin2"
-        android:textAlignment="center"
-        android:textColor="#3BF607"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC2"
-        app:layout_constraintEnd_toEndOf="@+id/buttonBeginC2"
-        app:layout_constraintStart_toStartOf="@+id/buttonBeginC2"
-        app:layout_constraintTop_toTopOf="@+id/buttonBeginC2" />
-
-    <Button
+    <ImageButton
         android:id="@+id/buttonBeginC2"
-        android:layout_width="170dp"
-        android:layout_height="119dp"
+        android:layout_width="171dp"
+        android:layout_height="56dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="40dp"
-        android:alpha="0"
-        android:backgroundTint="#A9A9A9"
+        android:background="@drawable/duryudana_choice"
         android:onClick="selectChoice2"
-        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/buttonBeginC1"
