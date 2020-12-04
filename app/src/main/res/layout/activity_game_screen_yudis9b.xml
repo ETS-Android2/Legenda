@@ -7,31 +7,6 @@
     android:background="@drawable/yudistira10"
     tools:context=".GameScreenYudis9B">
 
-    <ImageView
-        android:id="@+id/buttonImage2"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="40dp"
-        android:background="@drawable/textbox"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/buttonImage1"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="5dp"
-        android:background="@drawable/textbox"
-        app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -64,14 +39,14 @@
         app:layout_constraintTop_toTopOf="@+id/textView"
         app:layout_constraintVertical_bias="0.41000003" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonBeginC3"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="5dp"
-        android:alpha="0"
+        android:background="@drawable/button_background"
         android:onClick="selectChoice1"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -82,25 +57,25 @@
         android:id="@+id/textBeginC3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/play_bold"
         android:gravity="center"
         android:text="@string/storyChoiceYudistira9a"
         android:textAlignment="center"
-        android:textColor="#3BF607"
-        android:fontFamily="@font/play"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC3"
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC3"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC3"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC3"
         app:layout_constraintVertical_bias="0.5" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonBeginC1"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="40dp"
-        android:alpha="0"
+        android:background="@drawable/button_background"
         android:onClick="selectChoice2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,11 +86,11 @@
         android:id="@+id/textBeginC2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/play_bold"
         android:gravity="center"
         android:text="@string/storyChoiceYudistira9b"
         android:textAlignment="center"
-        android:textColor="#3BF607"
-        android:fontFamily="@font/play"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"

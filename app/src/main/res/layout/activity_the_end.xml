@@ -8,21 +8,6 @@
     android:background="#160203">
 
 
-    <ImageView
-        android:id="@+id/buttonImage"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="136dp"
-        android:background="@drawable/textbox"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyText"
-        app:layout_constraintVertical_bias="0.519" />
-
     <TextView
         android:id="@+id/game_over"
         android:layout_width="wrap_content"
@@ -36,31 +21,29 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <ImageButton
         android:id="@+id/buttonBeginC1"
         android:layout_width="0dp"
         android:layout_height="41dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="136dp"
-        android:alpha="0"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/button_background"
         android:onClick="goBack"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/storyText"
-        app:layout_constraintVertical_bias="0.519" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textBeginC2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/play_bold"
         android:gravity="center"
         android:text="@string/end_game"
         android:textAlignment="center"
-        android:textColor="#3BF607"
-        android:fontFamily="@font/play"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"

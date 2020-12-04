@@ -18,62 +18,61 @@
     <string name="musician">Alif Maulana</string>
     <string name="supers">THANKS TO:</string>
     <string name="supervisors">WDY\nN1</string>
-    <string name="storyTextBegin">In this version, the application will be taken from Mahabharata Epic, and there are two characters to pick, which are Yudhistira and Duryudhana.
-    Now, do you love to be a hero like Yudhistira, or do you want to understand how villain like Duryudhana works out?</string>
+
+    <string name="storyTextBegin">Dasar cerita permainan akan diambil dari epos Mahabharata untuk versi ini.
+    Ada dua tipe karakter yang bisa kamu pilih dalam permainan ini, yaitu Yudistira sebagai Ketua Pandawa (pahlawan), dan Duryudana sebagai ketua Kurawa (penjahat). Untuk permainan kali ini, mau menjadi pahlawan, atau menjadi penjahat?</string>
     <string name="storyTextYudistira1">
-        Hi, Yudistira! As the eldest in Pandawa, you got a message from Duryudana, the leader of Kuru kingdom.
-        The message contained an invitation to have a game of dice in Kuru Kingdom.</string>
+        Hai, Yudistira! Kamu sebagai saudara tertua Pandawa mendapat kiriman surat dari Duryudana, pemimpin Kerajaan Kuru.
+        Undangan ini berisi tantangan untuk bermain dadu di Kerajaan Kuru.</string>
     <string name="storyTextYudistira2">
-        With a little hesitation, you arrived at Hastinapura with your brothers and your wives to accept Duryudana\'s invitation.</string>
+        Dengan sedikit keraguan, kamu bersama saudara dan istrimu tiba di Hastinapura untuk menghadiri undangan Duryudana. </string>
     <string name="storyTextYudistira3">
-        Now, you\'re inside the game room, where you will going to play a game of dice with him.
-        The people you see on screen are Duryudana and his uncle, Sangkuni.
-        Sangkuni will be the advisor and the dice thrower. What are you going to bet on the first round?
+        Kamu sudah berada di ruang bermain dadu.
+        Ada Duryudana dan Sangkuni, paman Duryudana, yang juga hadir sebagai penasihat sekaligus sebagai pelempar dadu.
+        Apa yang akan kamu taruhkan?
     </string>
-    <string name="storyTextYudistira4a">First round has been started! Sangkuni throw the dice...</string>
+    <string name="storyTextYudistira4a">Putaran pertama dimulai!</string>
     <string name="storyTextYudistira4b">
-        Duryudana insists by saying \"Hey Yudistira, the leader of Kurujanggala, you must put your bet with me!\".
-        Will you put your bet?</string>
-    <string name="storyTextYudistira5">Yudistira, you have lost the first round! \"I\'m losing, it\'s okay, this is just the beginning\"</string>
+        Duryudana bersikeras memaksamu, \n
+        \“Hai, Yudistira pemimpin Kurujangala, kamu harus bertaruh denganku!\”
+        \nIkut bertaruh atau tidak?</string>
+    <string name="storyTextYudistira5">
+    Yudistira, kamu kalah! \n
+        \“Aku kalah? Tidak apa-apa, ini masih permulaan.\”</string>
     <string name="storyTextYudistira6">
-        To continue the game, you must put a higher bet than your weapons and armors.
-        \"Alright, I\'m putting my kingdom\'s wealth for this round!\"
+        Untuk melanjutkan permainan, kamu harus mempertaruhkan yang lebih besar dari senjata perang. \n
+        \“Baiklah, akan kupertaruhkan harta kerajaan.\”
     </string>
     <string name="storyTextYudistira7">
-        Second round has been started, and the dice has been thrown.
-        However, Yudistira lost again.
-        All the kingdom\'s wealth are falling to Duryudana\'s hand.
-        \"Oh no! I must play another round to take my wealth back!\"
+    Putaran kedua dimulai, dadu pun dilempar. Namun Yudistira, kamu kalah lagi. Semua harta kerajaaan kini jatuh ke tangan Duryudana. \n
+        \“Ah, tidak! Aku harus bermain lagi harta kerajaan kembali.\”
     </string>
     <string name="storyTextYudistira8">
-        You must be very upset, but your kingdom is the only one\'s left in your disposal.
-        Will you bet your Kingdom, Kurujanggala, this time?</string>
-    <string name="storyTextYudistira9a">Third round has been started, and the dice has been thrown once again.
-        For the third time, Yudistira lost again.
-        Now Kurujanggala kingdom has fall in Duryudana\'s hands.
-        \"No! Kurujanggala\'s Kingdom now is Duryudana\'s? What should I do?\"
+    Kamu pasti kesal, namun yang tersisa kini hanyalah kerajaan. Pertaruhkan Kerajaan Kurujangala??</string>
+    <string name="storyTextYudistira9a">
+        Putaran ketiga dimulai, dadu dilempar lagi. Yudistira, kamu kalah lagi untuk yang ketiga kalinya. Kerajaaan Kurujangala kini jatuh ke tangan Duryudana. \n
+        \“Tidak! Kerajaan Kurujangala pun kini menjadi milik Duryudana?! Aku harus bagaimana?\”
     </string>
-    <string name="storyTextYudistira9b">Sangkuni come to your closely and whisper
-        \"Just bet on your beloved Kingdom, Kurujanggala, and Kuru\'s kingdom will be yours if you win.\"
-        Follow Sangkuni\'s advice?
+    <string name="storyTextYudistira9b">Sangkuni menghampiri, \n
+        \“Pertaruhkan saja kerajaan, maka Kerajaan Kuru akan kembali ke tanganmu jika kamu menang.\” \n
+        Ikuti saran Sangkuni?
     </string>
     <string name="storyTextYudistira10">
-        \"It\'s ok, Yudistira. You still have your brothers and your wives.
-        Just put them on your bet, maybe the luck will be yours, this time.\"
-        Duryudana challenged you to put your brothers and wives on the bet. What will you do?
+        \“Yudistira, tidak apa-apa. Kamu masih punya saudara-saudara dan istrimu. Pertaruhkan saja, siapa tau kali ini keberuntungan berpihak padamu.\” \n
+        Duryudana menantang untuk mempertaruhkan saudara dan istrimu. Apa yang akan kamu lakukan?
     </string>
-    <string name="storyTextYudistira11a">Fourth round has been started, and the dice has been thrown once again.
-        Yudistira lost again for the fourth time and your brothers and wives are in Duryudana\'s hands!
+    <string name="storyTextYudistira11a">Putaran keempat dimulai, dadu dilempar lagi.
+        Kamu kalah lagi untuk yang keempat kalinya dan kini saudara dan istrimu menjadi milik Duryudana!
     </string>
     <string name="storyTextYudistira11b">
-        Because you have a very minimum power, you failed to take back what you have bet on before.
-        Drestarasta, Duryudana\'s father, break up the fight and tell Yudistira to go home.
+        Karena jumlah yang minim, kamu gagal merebut kembali semua yang telah kamu pertaruhkan.
+        Drestarasta, ayah Duryudana, melerai perkelahian dan menyuruhmu pulang.
     </string>
     <string name="storyTextYudistira12">
-        Drestarasta, Duryudana\'s father, feels that there will be a big chaos that will happen to his descendants.
-        He choose to return everything that Yudistira has put a bet on.
+        Drestarasta, ayah Duryudana, merasa bahwa malapetaka akan menimpa keturunannya.
+        Ia kemudian mengembalikan semua yang telah kamu jadikan taruhan.
     </string>
-    <string name="storyTextYudistira13">Then, what will you do?</string>
+    <string name="storyTextYudistira13">Apa yang akan kamu lakukan setelah ini?</string>
     <string name="storyTextDuryudana1">Yudistira come back from the punishment he received. Duryudana refused to have peaceful talk.</string>
     <string name="storyTextDuryudana2">No peace, war happened</string>
     <string name="storyTextDuryudana3">Come to Kresna to ask for help!</string>
@@ -92,21 +91,21 @@
     <string name="storyTextDuryudana12a">Duryudana challenges Pandawa for 1v1</string>
     <string name="storyTextDuryudana12b">Duryudana asks Kresna for assistance for defeating Pandawa</string>
     <string name="storyTextDuryudana13">Duryudana defeat Pandawa</string>
-    <string name="end">THE END</string>
-    <string name="storyChoiceBegin">Yudistira!</string>
-    <string name="storyChoiceBegin2">Duryudhana!</string>
-    <string name="storyChoiceYudistira3a">Weapons and armors.</string>
-    <string name="storyChoiceYudistira3b">I choose not to bet.</string>
-    <string name="storyChoiceYudistira4a">YES, I\'m putting my weapons and armors.</string>
-    <string name="storyChoiceYudistira4b">NO!</string>
-    <string name="storyChoiceYudistira8a">YES</string>
-    <string name="storyChoiceYudistira8b">NO</string>
-    <string name="storyChoiceYudistira9a">YES</string>
-    <string name="storyChoiceYudistira9b">NO</string>
-    <string name="storyChoiceYudistira10a">Accept the challenge.</string>
-    <string name="storyChoiceYudistira10b">Reject and take back everything you have bet before.</string>
-    <string name="storyChoiceYudistira13b">Take back the wealth you put your bet on from Duryudana.</string>
-    <string name="storyChoiceYudistira13a">Go home to Indraprasta with defeat.</string>
+    <string name="end">TAMAT</string>
+    <string name="storyChoiceBegin">Yudistira</string>
+    <string name="storyChoiceBegin2">Duryudana</string>
+    <string name="storyChoiceYudistira3a">Senjata Perang</string>
+    <string name="storyChoiceYudistira3b">Tidak bertaruh</string>
+    <string name="storyChoiceYudistira4a">YA, pertaruhkan senjata perang</string>
+    <string name="storyChoiceYudistira4b">TIDAK</string>
+    <string name="storyChoiceYudistira8a">YA</string>
+    <string name="storyChoiceYudistira8b">TIDAK</string>
+    <string name="storyChoiceYudistira9a">YA</string>
+    <string name="storyChoiceYudistira9b">TIDAK</string>
+    <string name="storyChoiceYudistira10a">Terima tantangan</string>
+    <string name="storyChoiceYudistira10b">Rebut kembali harta</string>
+    <string name="storyChoiceYudistira13b">Rebut paksa harta taruhanmu</string>
+    <string name="storyChoiceYudistira13a">Pulang ke Indraprastha dengan kekalahan</string>
 
     <string name="storyChoiceDuryudana4a">Beside head</string>
     <string name="storyChoiceDuryudana4b">Beside leg</string>
@@ -115,15 +114,15 @@
     <string name="storyChoiceDuryudana12a">Duryudana challenges!</string>
     <string name="storyChoiceDuryudana12b">Duryudana asks!</string>
 
-    <string name="storyNext">Continue the story...</string>
+    <string name="storyNext">Lanjutkan cerita</string>
 
     <string name="title_activity_game_screen_yudis13">activity_game_screen_yudis13</string>
-    <string name="game_over">GAME OVER</string>
-    <string name="the_end">THE END</string>
-    <string name="over_reason1">You have been kicked out from the game.</string>
-    <string name="over_reason2">You\'re going home empty handed.</string>
-    <string name="over_reason3">You\'re going home with regret and lost.</string>
-    <string name="over_reason4">You\'re failed to take what\'s yours, and you\'re getting kicked from the game.</string>
+    <string name="game_over">PERMAINAN\nBERAKHIR</string>
+    <string name="the_end">TAMAT</string>
+        <string name="over_reason1">Kamu sudah ditendang keluar dari permainan</string>
+    <string name="over_reason2">Kamu pulang dengan tangan kosong</string>
+    <string name="over_reason3">Kamu pulang dengan kekalahan dan perasaan kecewa</string>
+    <string name="over_reason4">Kamu gagal mengambil harta milikmu, dan kau ditendang keluar dari permainan</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>
