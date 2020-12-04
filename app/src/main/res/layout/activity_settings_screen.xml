@@ -32,8 +32,8 @@
 
     <ImageButton
         android:id="@+id/backButtonSettings"
-        android:layout_width="78dp"
-        android:layout_height="65dp"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
         android:background="@drawable/back"
         android:onClick="backToMain"
         app:layout_constraintBottom_toBottomOf="parent"
