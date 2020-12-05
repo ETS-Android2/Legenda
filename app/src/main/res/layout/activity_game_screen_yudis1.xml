@@ -9,54 +9,53 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="255dp"
+        android:layout_width="376dp"
+        android:layout_height="190dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:background="@drawable/textbox"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.92" />
+        app:layout_constraintVertical_bias="0.96" />
 
     <TextView
         android:id="@+id/storyText"
         android:layout_width="305dp"
-        android:layout_height="175dp"
-        android:fontFamily="@font/play"
-        android:textAlignment="center"
+        android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
+        android:fontFamily="@font/play"
         android:text="@string/storyTextYudistira1"
+        android:textAlignment="center"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.41000003" />
+        app:layout_constraintVertical_bias="0.16000003" />
 
     <ImageButton
         android:id="@+id/buttonBeginC1"
-        android:layout_width="0dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="84dp"
-        android:background="@drawable/button_background"
+        android:layout_width="152dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="16dp"
         android:onClick="nextChoice"
+        android:background="@drawable/button_background"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textBeginC2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/play_bold"
         android:gravity="center"
         android:text="@string/storyNext"
@@ -66,5 +65,5 @@
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC1"
-        app:layout_constraintVertical_bias="0.42000002" />
+        app:layout_constraintVertical_bias="0.43" />
 </androidx.constraintlayout.widget.ConstraintLayout>
