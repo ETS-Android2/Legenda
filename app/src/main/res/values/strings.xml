@@ -92,11 +92,13 @@
     <string name="storyTextDuryudana12b">Duryudana asks Kresna for assistance for defeating Pandawa</string>
     <string name="storyTextDuryudana13">Duryudana defeat Pandawa</string>
     <string name="end">TAMAT</string>
+
     <string name="storyChoiceBegin">Yudistira</string>
     <string name="storyChoiceBegin2">Duryudana</string>
+
     <string name="storyChoiceYudistira3a">Senjata Perang</string>
     <string name="storyChoiceYudistira3b">Tidak bertaruh</string>
-    <string name="storyChoiceYudistira4a">YA, pertaruhkan senjata perang</string>
+    <string name="storyChoiceYudistira4a">YA, pertaruhkan\nsenjata perang</string>
     <string name="storyChoiceYudistira4b">TIDAK</string>
     <string name="storyChoiceYudistira8a">YA</string>
     <string name="storyChoiceYudistira8b">TIDAK</string>
@@ -104,8 +106,8 @@
     <string name="storyChoiceYudistira9b">TIDAK</string>
     <string name="storyChoiceYudistira10a">Terima tantangan</string>
     <string name="storyChoiceYudistira10b">Rebut kembali harta</string>
-    <string name="storyChoiceYudistira13b">Rebut paksa harta taruhanmu</string>
-    <string name="storyChoiceYudistira13a">Pulang ke Indraprastha dengan kekalahan</string>
+    <string name="storyChoiceYudistira13b">Rebut paksa\nharta taruhanmu</string>
+    <string name="storyChoiceYudistira13a">Pulang ke\nIndraprastha\ndengan kekalahan</string>
 
     <string name="storyChoiceDuryudana4a">Beside head</string>
     <string name="storyChoiceDuryudana4b">Beside leg</string>
@@ -119,10 +121,13 @@
     <string name="title_activity_game_screen_yudis13">activity_game_screen_yudis13</string>
     <string name="game_over">PERMAINAN\nBERAKHIR</string>
     <string name="the_end">TAMAT</string>
-        <string name="over_reason1">Kamu sudah ditendang keluar dari permainan</string>
+
+    <string name="over_reason1">Kamu sudah ditendang keluar dari permainan</string>
     <string name="over_reason2">Kamu pulang dengan tangan kosong</string>
     <string name="over_reason3">Kamu pulang dengan kekalahan dan perasaan kecewa</string>
     <string name="over_reason4">Kamu gagal mengambil harta milikmu, dan kau ditendang keluar dari permainan</string>
+
+    <string name="ending">Selamat, kamu telah menyelesaikan permainan</string>
 
     <!-- Strings used for fragments for navigation -->
     <string name="next">Next</string>

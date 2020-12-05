@@ -13,13 +13,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/the_end"
-        android:textColor="@android:color/holo_red_light"
+        android:textColor="#3BF607"
         android:textSize="60sp"
         android:fontFamily="@font/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/over_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/ending"
+        android:textColor="@android:color/holo_green_light"
+        android:fontFamily="@font/play"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_over" />
 
     <ImageButton
         android:id="@+id/buttonBeginC1"
