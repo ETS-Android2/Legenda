@@ -24,17 +24,16 @@
 
     <ImageButton
         android:id="@+id/backButtonSettings"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
         android:background="@drawable/back"
         android:onClick="backToMain"
-        android:fontFamily="@font/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.050000012" />
     <TextView
         android:id="@+id/programmers"
         android:layout_width="wrap_content"
@@ -71,16 +70,16 @@
         android:id="@+id/programmersList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/play"
         android:text="@string/progs"
         android:textAlignment="center"
         android:textColor="#ff7900"
-        android:fontFamily="@font/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/programmers"
-        app:layout_constraintVertical_bias="0.05" />
+        app:layout_constraintVertical_bias="0.03" />
 
     <TextView
         android:id="@+id/musicby"
@@ -93,7 +92,7 @@
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintHorizontal_bias="0.379"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.63" />
@@ -103,10 +102,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:fontFamily="@font/play"
         android:text="@string/musician"
         android:textAlignment="center"
         android:textColor="#ff7900"
-        android:fontFamily="@font/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/musicby"
         app:layout_constraintTop_toTopOf="parent"

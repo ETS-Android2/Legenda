@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="@+id/settingBackground"
         app:layout_constraintEnd_toStartOf="@+id/toggleSound"
         app:layout_constraintHorizontal_bias="0.79"
@@ -32,22 +32,22 @@
 
     <ImageButton
         android:id="@+id/backButtonSettings"
-        android:layout_width="60dp"
-        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
         android:background="@drawable/back"
         android:onClick="backToMain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.024" />
+        app:layout_constraintVertical_bias="0.050000012" />
 
     <SeekBar
         android:id="@+id/toggleSound"
-        android:layout_width="157dp"
+        android:layout_width="195dp"
         android:layout_height="50dp"
-        android:progressTint="#ff7900"
+        android:progressTint="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/settingBackground"
         app:layout_constraintEnd_toEndOf="@+id/settingBackground"
         app:layout_constraintHorizontal_bias="0.678"
@@ -57,27 +57,27 @@
 
     <ImageButton
         android:id="@+id/onButton"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="90dp"
-        android:layout_marginTop="132dp"
+        android:layout_marginTop="160dp"
         android:background="@drawable/on"
         android:onClick="VolumeOn"
         app:layout_constraintEnd_toStartOf="@+id/offButton"
-        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="@+id/settingBackground"
         app:layout_constraintTop_toTopOf="@+id/settingBackground" />
 
     <ImageButton
         android:id="@+id/offButton"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:background="@drawable/off"
         android:onClick="VolumeOff"
         app:layout_constraintBottom_toBottomOf="@+id/settingBackground"
         app:layout_constraintEnd_toEndOf="@+id/settingBackground"
-        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="@+id/settingBackground"
         app:layout_constraintTop_toTopOf="@+id/settingBackground"
-        app:layout_constraintVertical_bias="0.898" />
+        app:layout_constraintVertical_bias="0.981" />
 </androidx.constraintlayout.widget.ConstraintLayout>
