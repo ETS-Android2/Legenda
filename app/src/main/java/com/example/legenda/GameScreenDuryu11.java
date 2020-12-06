@@ -122,11 +122,11 @@ public class GameScreenDuryu11 extends AppCompatActivity {
     public void selectChoice1(View view){//MoveLayout to MainMeny after game end
         boolean isKresna = getBoolean("isKresna");
         if(isKresna){
-            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
+            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
+            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
             startActivity(intent);
         }
 
