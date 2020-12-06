@@ -4,18 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TheEnd"
-    android:background="#160203">
+    android:background="#584239"
+    tools:context=".TheEnd">
 
 
     <TextView
         android:id="@+id/game_over"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/play"
         android:text="@string/the_end"
         android:textColor="#3BF607"
         android:textSize="60sp"
-        android:fontFamily="@font/play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,9 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
-        android:text="@string/ending"
-        android:textColor="@android:color/holo_green_light"
         android:fontFamily="@font/play"
+        android:text="@string/ending"
+        android:textColor="#f9f9f9"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

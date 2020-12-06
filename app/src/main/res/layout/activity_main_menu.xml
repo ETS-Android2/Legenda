@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#160203"
+    android:background="#584239"
     tools:context=".MainMenu">
 
     <ImageView
@@ -41,6 +41,7 @@
         android:onClick="MoveCredits"
         android:text="@string/credits"
         android:textSize="20sp"
+        android:textColor="#f9f9f9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"

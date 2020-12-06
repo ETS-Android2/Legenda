@@ -15,7 +15,6 @@
             android:name=".MusicService"
             android:enabled="true" />
 
-        <activity android:name=".ComingSoon" android:screenOrientation="portrait" />
         <activity android:name=".GameScreenYudisOver4" android:screenOrientation="portrait" />
         <activity android:name=".GameScreenYudisOver3" android:screenOrientation="portrait" />
         <activity android:name=".GameScreenYudisOver2" android:screenOrientation="portrait"/>

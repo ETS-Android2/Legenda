@@ -17,4 +17,8 @@ public class TheEnd extends AppCompatActivity {
         Intent intent = new Intent(TheEnd.this, MainMenu.class);
         startActivity(intent);
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }

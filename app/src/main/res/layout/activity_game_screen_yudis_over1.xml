@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameScreenYudisOver1"
-    android:background="#160203">
+    android:background="#584239"
+    tools:context=".GameScreenYudisOver1">
 
 
     <TextView
@@ -26,9 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
+        android:fontFamily="@font/play"
         android:text="@string/over_reason1"
         android:textColor="@android:color/holo_green_light"
-        android:fontFamily="@font/play"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

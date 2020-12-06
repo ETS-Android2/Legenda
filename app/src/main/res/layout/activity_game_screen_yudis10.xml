@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#160203"
+    android:background="#584239"
     tools:context=".GameScreenYudis10">
 
     <TextView

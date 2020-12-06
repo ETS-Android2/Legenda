@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#160203"
+    android:background="#584239"
     tools:context=".GameScreenBegin">
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_marginEnd="41dp"
         android:fontFamily="@font/play"
         android:text="@string/storyTextBegin"
-        android:textColor="#ff7900"
+        android:textColor="#F9F9F9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

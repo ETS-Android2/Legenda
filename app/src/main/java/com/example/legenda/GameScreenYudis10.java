@@ -119,4 +119,8 @@ public class GameScreenYudis10 extends AppCompatActivity {
         Intent intent = new Intent(GameScreenYudis10.this, GameScreenYudis11B.class);
         startActivity(intent);
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }
