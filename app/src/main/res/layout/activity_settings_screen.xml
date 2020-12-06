@@ -45,15 +45,19 @@
 
     <SeekBar
         android:id="@+id/toggleSound"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:layout_width="195dp"
         android:layout_height="50dp"
+        android:indeterminate="true"
         android:progressTint="#000000"
+        android:scrollbarStyle="outsideOverlay"
         app:layout_constraintBottom_toBottomOf="@+id/settingBackground"
         app:layout_constraintEnd_toEndOf="@+id/settingBackground"
         app:layout_constraintHorizontal_bias="0.678"
         app:layout_constraintStart_toStartOf="@+id/settingBackground"
         app:layout_constraintTop_toTopOf="@+id/settingBackground"
-        app:layout_constraintVertical_bias="0.43" />
+        app:layout_constraintVertical_bias="0.43"
+        app:tickMarkTint="#000000" />
 
     <ImageButton
         android:id="@+id/onButton"
