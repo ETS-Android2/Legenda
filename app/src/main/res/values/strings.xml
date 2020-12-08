@@ -45,10 +45,10 @@
     </string>
     <string name="storyTextYudistira7">
     Putaran kedua dimulai, dadu pun dilempar. Namun Yudistira, kamu kalah lagi. Semua harta kerajaaan kini jatuh ke tangan Duryudana. \n
-        \“Ah, tidak! Aku harus bermain lagi harta kerajaan kembali.\”
+        \“Ah, tidak! Aku harus bermain lagi agar harta kerajaanku kembali.\”
     </string>
     <string name="storyTextYudistira8">
-    Kamu pasti kesal, namun yang tersisa kini hanyalah kerajaan. Pertaruhkan Kerajaan Kurujangala??</string>
+    Kamu ingin bermain lagi, namun yang tersisa kini hanyalah kerajaan. Pertaruhkan Kerajaan Kurujangala??</string>
     <string name="storyTextYudistira9a">
         Putaran ketiga dimulai, dadu dilempar lagi. Yudistira, kamu kalah lagi untuk yang ketiga kalinya. Kerajaaan Kurujangala kini jatuh ke tangan Duryudana. \n
         \“Tidak! Kerajaan Kurujangala pun kini menjadi milik Duryudana?! Aku harus bagaimana?\”
@@ -58,7 +58,7 @@
         Ikuti saran Sangkuni?
     </string>
     <string name="storyTextYudistira10">
-        \“Yudistira, tidak apa-apa. Kamu masih punya saudara-saudara dan istrimu. Pertaruhkan saja, siapa tau kali ini keberuntungan berpihak padamu.\” \n
+        \“Yudistira, tidak apa-apa. Kamu masih punya saudara-saudara dan istrimu. Pertaruhkan saja, siapa tau kali ini keberuntungan berpihak kepadamu.\” \n
         Duryudana menantang untuk mempertaruhkan saudara dan istrimu. Apa yang akan kamu lakukan?
     </string>
     <string name="storyTextYudistira11a">Putaran keempat dimulai, dadu dilempar lagi.
@@ -76,21 +76,21 @@
 
 
     <string name="storyTextDuryudana1">Hai, Duryudana! Masa penghukuman Pandawa kini telah selesai. Telah diajukan perundingan perdamaian dan kamu tidak menyetujui perdamaian itu.</string>
-    <string name="storyTextDuryudana2">Karena kamu tidak menyetujui perdamaian, mata akan terjadi perang Bharatayuddha yaitu perang antara Pandawa dan Korawa.</string>
+    <string name="storyTextDuryudana2">Karena kamu tidak menyetujui perdamaian, maka akan terjadi perang Bharatayuddha, yaitu perang antara Pandawa dan Korawa.</string>
     <string name="storyTextDuryudana3">Kamu kemudian mendatangi Batara Kresna untuk meminta bala bantuan perang.</string>
-    <string name="storyTextDuryudana4">Kamu telah tiba di kediaman Kresna. Tapi ia sedang tidur, duduk saja terlebih dahulu. Duduk di mana?</string>
+    <string name="storyTextDuryudana4">Kamu telah tiba di kediaman Kresna. Tetapi ia sedang tidur, kamu ingin duduk terlebih dahulu. Duduk di mana?</string>
     <string name="storyTextDuryudana5a">Arjuna juga datang dan duduk di samping kaki Kresna.</string>
     <string name="storyTextDuryudana5b">Arjuna juga datang dan duduk di samping kepala Kresna.</string>
-    <string name="storyTextDuryudana6">Lihat! Kresna sudah bangun, sampaikan kau memerlukan bala bantuan!</string>
+    <string name="storyTextDuryudana6">Lihat! Kresna sudah bangun, sampaikan kepadanya bahwa kau memerlukan bala bantuan!</string>
     <string name="storyTextDuryudana7">“Batara Kresna, akan terjadi perang besar dan aku memerlukan bala bantuan. Maka bantulah aku terlebih dahulu.”</string>
     <string name="storyTextDuryudana8a">Kresna menjawab, “Namun yang kulihat pertama saat aku bangun adalah Arjuna.” Sampaikan bahwa kau datang terlebih dahulu daripada Arjuna!</string>
     <string name="storyTextDuryudana8b">Kresna menjawab, “Baiklah, karena yang kulihat pertama saat aku bangun adalah Duryudana, maka sampaikan apa keperluanmu.” \nSampaikan apa yang kau perlukan!</string>
-    <string name="storyTextDuryudana9a">“Batara Kersna, aku yang datang pertama menghampirimu ketimbang Arjuna. Maka berilah aku bala bantuan terlebih dahulu.”</string>
+    <string name="storyTextDuryudana9a">“Batara Kresna, aku yang datang pertama menghampirimu ketimbang Arjuna. Maka berilah aku bala bantuan terlebih dahulu.”</string>
     <string name="storyTextDuryudana9b">“Batara Kresna, berilah aku bala bantuan karena perang Bharatayuddha akan terjadi.”</string>
-    <string name="storyTextDuryudana10a">Kresna menjawab, “Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih, 10.000 pasukan perang atau diriku sendiri yang hanya akan membantu strategi perang?”</string>
-    <string name="storyTextDuryudana10b">Kresna menjawab, “Aku akan menolongmu, jadi kau pilih 10.000 pasukan perang atau diriku sendiri yang hanya akan membantu strategi perang?”</string>
-    <string name="storyTextDuryudana11">Perang Bharatayuddha dimulai. Kamu mengerahkan seluruh pasukan Kerajaan Kuru. Peperangan berlalu hingga berhari-hari. Banyak pasukan dan keluargamu yang tewas, termasuk seluruh saudaramu. Hingga hari ke-18, kamu bersembunyi di telaga. Pandawa kini mengetahui keberadaanmu.</string>
-    <string name="storyTextDuryudana12a">Akhirnya kamu memberi syarat, “Aku hanya akan berperang lagi jika aku diberi senjata dan Pandawa mau bertarung satu persatu.” Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
+    <string name="storyTextDuryudana10a">Kresna menjawab, “Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih antara 10.000 pasukan perang atau diriku sendiri sebagai ahli siasat perang!”</string>
+    <string name="storyTextDuryudana10b">Kresna menjawab, “Aku akan menolongmu, jadi kau pilih antara 10.000 pasukan perang atau diriku sendiri sebagai taktisi perang!”</string>
+    <string name="storyTextDuryudana11">Perang Bharatayuddha dimulai. Kamu mengerahkan seluruh pasukan Kerajaan Kuru. Peperangan berlangsung hingga berhari-hari. Banyak pasukan dan keluargamu yang tewas, termasuk seluruh saudaramu. Hingga hari ke-18, kamu bersembunyi di telaga. Pandawa kini mengetahui keberadaanmu.</string>
+    <string name="storyTextDuryudana12a">Akhirnya kamu memberi syarat, “Aku hanya akan berperang lagi jika aku diberi senjata dan Pandawa mau bertarung satu lawan satu.” Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
     <string name="storyTextDuryudana12b">Duryodana yang ketakutan akhirnya meminta bantuan Batara Kresna untuk mengalahkan Pandawa</string>
     <string name="storyTextDuryudana13">Selamat, Duryudana! Kamu berhasil mengalahkan Pandawa.</string>
     <string name="end">TAMAT</string>
@@ -98,7 +98,7 @@
     <string name="storyChoiceBegin">Yudistira</string>
     <string name="storyChoiceBegin2">Duryudana</string>
 
-    <string name="storyChoiceYudistira3a">Senjata Perang</string>
+    <string name="storyChoiceYudistira3a">Senjata perang</string>
     <string name="storyChoiceYudistira3b">Tidak bertaruh</string>
     <string name="storyChoiceYudistira4a">YA, pertaruhkan\nsenjata perang</string>
     <string name="storyChoiceYudistira4b">TIDAK</string>
@@ -115,7 +115,7 @@
     <string name="storyChoiceDuryudana4b">Di samping kaki</string>
     <string name="storyChoiceDuryudana10a">10.000 pasukan perang</string>
     <string name="storyChoiceDuryudana10b">Batara Kresna</string>
-    <string name="storyChoiceDuryudana12a">Tantang pandawa \nberduel 1 lawan 1</string>
+    <string name="storyChoiceDuryudana12a">Tantang pandawa \nberduel satu lawan satu</string>
     <string name="storyChoiceDuryudana12b">Meminta bantuan \nBatara Kresna</string>
 
     <string name="storyNext">Lanjut</string>
@@ -127,7 +127,7 @@
     <string name="over_reason1">Kamu sudah ditendang keluar dari permainan</string>
     <string name="over_reason2">Kamu pulang dengan tangan kosong</string>
     <string name="over_reason3">Kamu pulang dengan kekalahan dan perasaan kecewa</string>
-    <string name="over_reason4">Kamu gagal mengambil harta milikmu, dan kau ditendang keluar dari permainan</string>
+    <string name="over_reason4">Kamu gagal mengambil harta milikmu, ditendang keluar dari permainan</string>
 
     <string name="ending">Selamat, kamu telah menyelesaikan permainan</string>
 
