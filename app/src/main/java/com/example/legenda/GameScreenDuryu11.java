@@ -131,9 +131,8 @@ public class GameScreenDuryu11 extends AppCompatActivity {
         }
 
     }
+    @Override
+    public void onBackPressed() {
 
-    /*public void selectChoice2(View view){
-        Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
-        startActivity(intent);
-    }*/
+    }
 }

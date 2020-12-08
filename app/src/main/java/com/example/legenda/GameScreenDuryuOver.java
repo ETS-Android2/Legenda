@@ -17,4 +17,8 @@ public class GameScreenDuryuOver extends AppCompatActivity {
         Intent intent = new Intent(GameScreenDuryuOver.this, MainMenu.class);
         startActivity(intent);
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }

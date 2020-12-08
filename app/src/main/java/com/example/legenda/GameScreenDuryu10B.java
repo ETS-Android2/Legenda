@@ -129,4 +129,8 @@ public class GameScreenDuryu10B extends AppCompatActivity {
         editor.putBoolean(key, value);
         editor.commit();
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }

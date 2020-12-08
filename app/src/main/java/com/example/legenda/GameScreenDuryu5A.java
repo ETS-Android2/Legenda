@@ -116,4 +116,8 @@ public class GameScreenDuryu5A extends AppCompatActivity {
         Intent intent = new Intent(GameScreenDuryu5A.this, GameScreenDuryu6.class);
         startActivity(intent);
     }
+    @Override
+    public void onBackPressed() {
+
+    }
 }
