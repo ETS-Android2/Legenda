@@ -2,7 +2,7 @@
     <string name="app_name">LEGENDA</string>
     <string name="app_version">v0.01a</string>
     <string name="credits">CREDITS</string>
-    <string name="sound_setting">Sound Setting</string>
+    <string name="sound_setting">Sound Settings</string>
     <string name="volume_setting">Volume</string>
     <string name="back">BACK</string>
     <string name="on">ON</string>
@@ -19,8 +19,8 @@
     <string name="supers">Special Thanks</string>
     <string name="supervisors">WDY\nN1</string>
 
-    <string name="storyTextBegin">Dasar cerita permainan akan diambil dari epos Mahabharata untuk versi ini.
-    Ada dua tipe karakter yang bisa kamu pilih dalam permainan ini, yaitu Yudistira sebagai Ketua Pandawa (pahlawan), dan Duryudana sebagai ketua Kurawa (penjahat). Untuk permainan kali ini, mau menjadi pahlawan, atau menjadi penjahat?</string>
+    <string name="storyTextBegin">Dasar cerita permainan akan diambil dari epos Mahabharata.
+    Ada dua tipe karakter yang bisa kamu pilih dalam permainan ini, yaitu Yudistira , dan Duryudana. Untuk permainan kali ini, mau menjadi Yudistira, atau menjadi Duryudana?</string>
     <string name="storyTextYudistira1">
         Hai, Yudistira! Kamu sebagai saudara tertua Pandawa mendapat kiriman surat dari Duryudana, pemimpin Kerajaan Kuru.
         Undangan ini berisi tantangan untuk bermain dadu di Kerajaan Kuru.</string>
@@ -89,7 +89,7 @@
     <string name="storyTextDuryudana9b">“Batara Kresna, berilah aku bala bantuan karena perang Bharatayuddha akan terjadi.”</string>
     <string name="storyTextDuryudana10a">Kresna menjawab, “Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih, 10.000 pasukan perang atau diriku sendiri yang hanya akan membantu strategi perang?”</string>
     <string name="storyTextDuryudana10b">Kresna menjawab, “Aku akan menolongmu, jadi kau pilih 10.000 pasukan perang atau diriku sendiri yang hanya akan membantu strategi perang?”</string>
-    <string name="storyTextDuryudana11">Perang Bharatayuddha dimulai. Kamu mengerahkan seluruh pasukan Kerajaan Kuru. Peperangan berlalu hingga berhari-hari. Banyak pasukan dan keluargamu yang tewas, termasuk seluruh saudaramu. Hingga hari ke 18, kamu bersembunyi di telaga. Pandawa kini mengetahui keberadaanmu.</string>
+    <string name="storyTextDuryudana11">Perang Bharatayuddha dimulai. Kamu mengerahkan seluruh pasukan Kerajaan Kuru. Peperangan berlalu hingga berhari-hari. Banyak pasukan dan keluargamu yang tewas, termasuk seluruh saudaramu. Hingga hari ke-18, kamu bersembunyi di telaga. Pandawa kini mengetahui keberadaanmu.</string>
     <string name="storyTextDuryudana12a">Akhirnya kamu memberi syarat, “Aku hanya akan berperang lagi jika aku diberi senjata dan Pandawa mau bertarung satu persatu.” Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
     <string name="storyTextDuryudana12b">Duryodana yang ketakutan akhirnya meminta bantuan Batara Kresna untuk mengalahkan Pandawa</string>
     <string name="storyTextDuryudana13">Selamat, Duryudana! Kamu berhasil mengalahkan Pandawa.</string>
