@@ -8,7 +8,7 @@
     <string name="on">ON</string>
     <string name="off">OFF</string>
     <string name="exit">EXIT</string>
-    <string name="end_game">End the game.</string>
+    <string name="end_game">Kembali ke menu</string>
     <string name="programmer">Programmers</string>
     <string name="progs">Andi Arizal\nSabili B. Lopa\nDaniel Stephen</string>
     <string name="designer">Designers</string>
@@ -111,9 +111,9 @@
     <string name="storyChoiceYudistira13b">Rebut paksa\nharta taruhanmu</string>
     <string name="storyChoiceYudistira13a">Pulang ke\nIndraprastha\ndengan kekalahan</string>
 
-    <string name="storyChoiceDuryudana4a">Di samping kepala</string>
-    <string name="storyChoiceDuryudana4b">Di samping kaki</string>
-    <string name="storyChoiceDuryudana10a">10.000 pasukan perang</string>
+    <string name="storyChoiceDuryudana4a">Kepala</string>
+    <string name="storyChoiceDuryudana4b">Kaki</string>
+    <string name="storyChoiceDuryudana10a">Pasukan perang</string>
     <string name="storyChoiceDuryudana10b">Batara Kresna</string>
     <string name="storyChoiceDuryudana12a">Tantang pandawa \nberduel satu lawan satu</string>
     <string name="storyChoiceDuryudana12b">Meminta bantuan \nBatara Kresna</string>

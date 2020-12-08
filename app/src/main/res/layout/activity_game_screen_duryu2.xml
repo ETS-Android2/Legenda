@@ -65,5 +65,5 @@
         app:layout_constraintEnd_toEndOf="@+id/buttonBeginC1"
         app:layout_constraintStart_toStartOf="@+id/buttonBeginC1"
         app:layout_constraintTop_toTopOf="@+id/buttonBeginC1"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintVertical_bias="0.43" />
 </androidx.constraintlayout.widget.ConstraintLayout>
