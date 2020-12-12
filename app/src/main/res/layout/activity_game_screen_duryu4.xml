@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameScreenDuryu4"
-    android:background="@drawable/yudistira3">
+    android:background="@drawable/duryudana4"
+    tools:context=".GameScreenDuryu4">
 
     <TextView
         android:id="@+id/textView"

@@ -45,9 +45,17 @@
 
     <SeekBar
         android:id="@+id/toggleSound"
+        android:splitTrack="false"
         android:layout_width="195dp"
         android:layout_height="50dp"
+        android:minHeight="10dp"
+        android:minWidth="15dp"
+        android:maxHeight="15dp"
+        android:maxWidth="15dp"
+        android:progress="50"
         android:progressTint="#000000"
+        android:progressDrawable="@drawable/custom_seekbar_progress"
+        android:thumb="@drawable/volume_thumb_slider"
         app:layout_constraintBottom_toBottomOf="@+id/settingBackground"
         app:layout_constraintEnd_toEndOf="@+id/settingBackground"
         app:layout_constraintHorizontal_bias="0.678"
