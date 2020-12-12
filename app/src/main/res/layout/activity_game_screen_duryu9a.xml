@@ -45,6 +45,7 @@
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="12sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
