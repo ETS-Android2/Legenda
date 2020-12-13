@@ -3,9 +3,13 @@ package com.example.legenda;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
@@ -14,12 +18,15 @@ import android.widget.Toast;
 public class MainMenu extends AppCompatActivity {
     private long backInterval;
     private Toast backToast;
+
+    HomeWatcher mHomeWatcher;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
     }
-    public void MoveSettings(View view){ //MoveLayout to Settings page
+     public void MoveSettings(View view){ //MoveLayout to Settings page
         Intent intent = new Intent(MainMenu.this, SettingsScreen.class);
         startActivity(intent);
     }
@@ -37,10 +44,7 @@ public class MainMenu extends AppCompatActivity {
     public void onBackPressed() {
         if(backInterval + 2000 > System.currentTimeMillis()){
             backToast.cancel();
-            Intent a = new Intent(Intent.ACTION_MAIN);
-            a.addCategory(Intent.CATEGORY_HOME);
-            a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            startActivity(a);
+            finishAffinity();
             return;
         }
         else{

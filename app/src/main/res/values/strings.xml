@@ -83,12 +83,12 @@
 
 
     <string name="storyTextDuryudana1">Hai, Duryudana! Masa penghukuman Pandawa kini telah selesai. Telah diajukan perundingan perdamaian dan kamu tidak menyetujui perdamaian itu.</string>
-    <string name="storyTextDuryudana2">Karena kamu tidak menyetujui perdamaian, maka akan terjadi perang Bharatayudha, yaitu perang antara Pandawa dan Korawa.</string>
+    <string name="storyTextDuryudana2">Karena kamu tidak menyetujui perdamaian, maka akan terjadi perang Baratayudha, yaitu perang antara Pandawa dan Kurawa.</string>
     <string name="storyTextDuryudana3">Kamu kemudian mendatangi Batara Kresna untuk meminta bala bantuan perang.</string>
     <string name="storyTextDuryudana4">Kamu telah tiba di kediaman Kresna. Tetapi ia sedang tidur, kamu ingin duduk terlebih dahulu. Duduk di samping mana?</string>
     <string name="storyTextDuryudana5a">Arjuna juga datang dan duduk di samping kaki Kresna.</string>
     <string name="storyTextDuryudana5b">Arjuna juga datang dan duduk di samping kepala Kresna.</string>
-    <string name="storyTextDuryudana6">Lihat! Kresna sudah bangun, sampaikan kepadanya bahwa kau memerlukan bala bantuan!</string>
+    <string name="storyTextDuryudana6">Lihat! Kresna sudah bangun, sampaikan kau memerlukan bala bantuan!</string>
     <string name="storyTextDuryudana7">“Batara Kresna, akan terjadi perang besar dan aku memerlukan bala bantuan. Maka bantulah aku terlebih dahulu.”</string>
     <string name="storyTextDuryudana8a.1">Kresna menjawab,</string>
     <string name="storyTextDuryudana8a.2">“Namun yang kulihat pertama saat aku bangun adalah Arjuna.”</string>
@@ -97,23 +97,23 @@
     <string name="storyTextDuryudana8b.2">“Baiklah, karena yang kulihat pertama saat aku bangun adalah Duryudana, maka sampaikan apa keperluanmu.”</string>
     <string name="storyTextDuryudana8b.3">Sampaikan apa yang kau perlukan!</string>
     <string name="storyTextDuryudana9a">“Batara Kresna, aku yang datang pertama menghampirimu ketimbang Arjuna. Maka berilah aku bala bantuan terlebih dahulu.”</string>
-    <string name="storyTextDuryudana9b">“Batara Kresna, berilah aku bala bantuan karena perang Bharatayudha akan terjadi.”</string>
+    <string name="storyTextDuryudana9b">“Batara Kresna, berilah aku bala bantuan karena perang Baratayudha akan terjadi.”</string>
     <string name="storyTextDuryudana10a.1">Kresna bertanya,</string>
-    <string name="storyTextDuryudana10a.2">“Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih antara 10.000 pasukan perang atau diriku sendiri yang hanya akan memberi satu kali pertolongan?”</string>
+    <string name="storyTextDuryudana10a.2">“Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih, 10.000 pasukan perang atau diriku sendiri yang hanya akan memberi satu kali pertolongan?”</string>
     <string name="storyTextDuryudana10b.1">Kresna bertanya,</string>
     <string name="storyTextDuryudana10b.2">“Aku akan menolongmu, jadi kau pilih antara 10.000 pasukan perang atau diriku sendiri yang hanya akan memberi satu kali pertolongan?”</string>
 
 
-    <string name="storyTextDuryudana11a">Perang Bharatayudha dimulai. Meski dengan mengerahkan 10.000 pasukan, kamu tetap kalah. Hingga hari ke-18, kamu bersembunyi di telaga.
+    <string name="storyTextDuryudana11a">Perang Baratayudha dimulai. Meski dengan mengerahkan 10.000 pasukan, kamu tetap kalah. Hingga hari ke-18, kamu bersembunyi di telaga.
         Namun, Pandawa kini mengetahui keberadaanmu. Beri saja syarat kepada Pandawa!</string>
-    <string name="storyTextDuryudana11b">Perang Bharatayudha dimulai. Banyak pasukan dan keluargamu yang tewas. Hingga hari ke-18, kamu bersembunyi di telaga.
+    <string name="storyTextDuryudana11b">Perang Baratayudha dimulai. Banyak pasukan dan keluargamu yang tewas. Hingga hari ke-18, kamu bersembunyi di telaga.
         Namun, Pandawa kini mengetahui keberadaanmu. Minta bantuan kepada Batara Kresna</string>
     <string name="storyTextDuryudana12a.1">Kamu memberi syarat kepada Pandawa</string>
     <string name="storyTextDuryudana12a.2">\"Aku hanya akan berperang lagi jika aku diberi senjata dan jika Pandawa mau bertarung satu persatu.\"</string>
     <string name="storyTextDuryudana12b.1">Kamu meminta bantuan Batara Kresna,</string>
     <string name="storyTextDuryudana12b.2">"Batara Kresna, kali ini aku meminta bantuanmu untuk mengalahkan Pandawa."</string>
     <string name="storyTextDuryudana14">Dengan bantuan Batara Kresna, kamu berhasil mengalahkan Pandawa. Selamat!</string>
-    <string name="storyTextDuryudana13">Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
+    <string name="storyTextDuryudana13">Pandawa menyetujui. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
     <string name="end">TAMAT</string>
 
 

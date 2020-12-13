@@ -82,6 +82,9 @@
             android:name=".GameScreenDuryuOver"
             android:screenOrientation="portrait" />
         <activity
+            android:name=".GameScreenDuryu14"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".GameScreenDuryu13"
             android:screenOrientation="portrait" />
         <activity
