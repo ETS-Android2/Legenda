@@ -4,7 +4,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -12,13 +11,14 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GameScreenDuryu10A extends AppCompatActivity {
+public class GameScreenDuryu14 extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen_duryu10a);
+        setContentView(R.layout.activity_game_screen_duryu14);
 
         doBindService();
         Intent music = new Intent();
@@ -112,21 +112,9 @@ public class GameScreenDuryu10A extends AppCompatActivity {
         mHomeWatcher.stopWatch();
     }
 
-    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
-        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11B.class);
-        saveBoolean("isKresna", false);
+    public void goBack(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenDuryu14.this, MainMenu.class);
         startActivity(intent);
-    }
-    public void selectChoice2(View view){
-        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11.class);
-        saveBoolean("isKresna", true);
-        startActivity(intent);
-    }
-    public void saveBoolean(String key, boolean value){
-        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sp.edit();
-        editor.putBoolean(key, value);
-        editor.commit();
     }
     @Override
     public void onBackPressed() {

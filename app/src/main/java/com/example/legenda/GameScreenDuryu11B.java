@@ -12,13 +12,16 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GameScreenDuryu10A extends AppCompatActivity {
+public class GameScreenDuryu11B extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
+    GameScreenDuryu10A gs10A = new GameScreenDuryu10A();
+    GameScreenDuryu10B gs10B = new GameScreenDuryu10B();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen_duryu10a);
+        setContentView(R.layout.activity_game_screen_duryu11b);
 
         doBindService();
         Intent music = new Intent();
@@ -27,6 +30,7 @@ public class GameScreenDuryu10A extends AppCompatActivity {
 
         mHomeWatcher = new HomeWatcher(this);
         mHomeWatcher.setOnHomePressedListener(new HomeWatcher.OnHomePressedListener() {
+
             @Override
             public void onHomePressed() {
                 if (mServ != null) {
@@ -111,23 +115,11 @@ public class GameScreenDuryu10A extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
+    public void nextChoice(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenDuryu11B.this, GameScreenDuryu12B.class);
+        startActivity(intent);
+    }
 
-    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
-        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11B.class);
-        saveBoolean("isKresna", false);
-        startActivity(intent);
-    }
-    public void selectChoice2(View view){
-        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11.class);
-        saveBoolean("isKresna", true);
-        startActivity(intent);
-    }
-    public void saveBoolean(String key, boolean value){
-        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sp.edit();
-        editor.putBoolean(key, value);
-        editor.commit();
-    }
     @Override
     public void onBackPressed() {
 
