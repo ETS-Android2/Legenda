@@ -46,7 +46,8 @@
         <activity android:name=".GameScreenDuryu9A" android:screenOrientation="portrait"/>
         <activity android:name=".GameScreenDuryu8B" android:screenOrientation="portrait"/>
         <activity android:name=".GameScreenDuryu8A" android:screenOrientation="portrait"/>
-        <activity android:name=".GameScreenDuryu7" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu7B" android:screenOrientation="portrait"/>
+        <activity android:name=".GameScreenDuryu7A" android:screenOrientation="portrait"/>
         <activity android:name=".GameScreenDuryu6" android:screenOrientation="portrait"/>
         <activity android:name=".GameScreenDuryu5B" android:screenOrientation="portrait"/>
         <activity android:name=".GameScreenDuryu5A" android:screenOrientation="portrait"/>

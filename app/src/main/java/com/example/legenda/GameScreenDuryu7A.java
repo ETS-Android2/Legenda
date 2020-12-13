@@ -4,7 +4,6 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -12,14 +11,15 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GameScreenDuryu6 extends AppCompatActivity {
+public class GameScreenDuryu7A extends AppCompatActivity {
 
     HomeWatcher mHomeWatcher;
+    GameScreenDuryu4 gs4 = new GameScreenDuryu4();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_screen_duryu6);
+        setContentView(R.layout.activity_game_screen_duryu7a);
 
         doBindService();
         Intent music = new Intent();
@@ -112,21 +112,11 @@ public class GameScreenDuryu6 extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
-    public boolean getBoolean(String key){
-        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
-        return sp.getBoolean(key, false);
-    }
-    public void nextChoice(View view){//MoveLayout to next GameScreen c2
-        boolean isBesideHead = getBoolean("isBeside");
-        if(isBesideHead){
-            Intent intent = new Intent(GameScreenDuryu6.this, GameScreenDuryu7A.class);
+
+    public void nextChoice(View view){//MoveLayout to HomeScreen, since the development is not done yet.
+            Intent intent = new Intent(GameScreenDuryu7A.this, GameScreenDuryu8A.class);
             startActivity(intent);
-        }
-        else{
-            Intent intent = new Intent(GameScreenDuryu6.this, GameScreenDuryu7B.class);
-            startActivity(intent);
-        }
-    }
+      }
     @Override
     public void onBackPressed() {
 

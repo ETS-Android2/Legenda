@@ -8,21 +8,9 @@
     tools:context=".MainMenu">
 
     <ImageView
-        android:id="@+id/playImage"
-        android:layout_width="171dp"
-        android:layout_height="69dp"
-        android:background="@drawable/playbutton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
-
-    <ImageView
         android:id="@+id/mainMenuLogo"
-        android:layout_width="175dp"
-        android:layout_height="175dp"
+        android:layout_width="340dp"
+        android:layout_height="370dp"
         android:src="@drawable/applogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,8 +39,8 @@
 
     <Button
         android:id="@+id/playButton"
-        android:layout_width="171dp"
-        android:layout_height="69dp"
+        android:layout_width="140dp"
+        android:layout_height="53dp"
         android:alpha="0"
         android:onClick="PlayGame"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,12 +48,24 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.73" />
+
+    <ImageView
+        android:id="@+id/playImage"
+        android:layout_width="140dp"
+        android:layout_height="53dp"
+        android:background="@drawable/playbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.73" />
 
     <ImageButton
         android:id="@+id/settingButton"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
         android:background="@drawable/settings"
         android:onClick="MoveSettings"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -73,6 +73,6 @@
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/playImage"
-        app:layout_constraintVertical_bias="0.79" />
+        app:layout_constraintVertical_bias="0.64" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
