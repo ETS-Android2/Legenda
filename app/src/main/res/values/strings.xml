@@ -98,21 +98,22 @@
     <string name="storyTextDuryudana8b.3">Sampaikan apa yang kau perlukan!</string>
     <string name="storyTextDuryudana9a">“Batara Kresna, aku yang datang pertama menghampirimu ketimbang Arjuna. Maka berilah aku bala bantuan terlebih dahulu.”</string>
     <string name="storyTextDuryudana9b">“Batara Kresna, berilah aku bala bantuan karena perang Bharatayudha akan terjadi.”</string>
-    <string name="storyTextDuryudana10a.1">Kresna menjawab,</string>
-    <string name="storyTextDuryudana10a.2">“Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih antara 10.000 pasukan perang atau diriku sendiri sebagai ahli siasat perang!”</string>
-    <string name="storyTextDuryudana10b.1">Kresna menjawab,</string>
-    <string name="storyTextDuryudana10b.2">\“Aku akan menolongmu, jadi kau pilih antara 10.000 pasukan perang atau diriku sendiri sebagai taktisi perang!\”</string>
+    <string name="storyTextDuryudana10a.1">Kresna bertanya,</string>
+    <string name="storyTextDuryudana10a.2">“Sudah, sudah! Aku akan menolong kalian berdua. Silakan pilih antara 10.000 pasukan perang atau diriku sendiri yang hanya akan memberi satu kali pertolongan?”</string>
+    <string name="storyTextDuryudana10b.1">Kresna bertanya,</string>
+    <string name="storyTextDuryudana10b.2">“Aku akan menolongmu, jadi kau pilih antara 10.000 pasukan perang atau diriku sendiri yang hanya akan memberi satu kali pertolongan?”</string>
 
 
-    <string name="storyTextDuryudana11">Perang Bharatayudha dimulai. Kamu mengerahkan seluruh pasukan Kerajaan Kuru. Peperangan berlangsung hingga berhari-hari.
-        Banyak pasukan dan keluargamu yang tewas, termasuk seluruh saudaramu. Hingga hari ke-18, kamu bersembunyi di telaga. Pandawa kini mengetahui keberadaanmu.</string>
-    <string name="storyTextDuryudana12a.1">Akhirnya kamu memberi syarat, </string>
-    <string name="storyTextDuryudana12a.2">\“Aku hanya akan berperang lagi jika aku diberi senjata dan Pandawa mau bertarung satu lawan satu.\”</string>
-    <string name="storyTextDuryudana12a.3">Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul pahamu dengan Gada Rujak Polo hingga tewas.</string>
-    <string name="storyTextDuryudana12b">Duryudana yang ketakutan akhirnya meminta bantuan Batara Kresna untuk mengalahkan Pandawa</string>
-    <string name="storyTextDuryudana13">Selamat, Duryudana! Kamu berhasil mengalahkan Pandawa.</string>
+    <string name="storyTextDuryudana11a">Perang Bharatayudha dimulai. Meski dengan mengerahkan 10.000 pasukan, Duryudana tetap kalah. Hingga hari ke-18, ia bersembunyi di telaga.
+        Namun, Pandawa kini mengetahui keberadaannya. Ia memberi syarat kepada Pandawa.</string>
+    <string name="storyTextDuryudana11b">Perang Bharatayudha dimulai. Banyak pasukan dan keluarga Duryudana yang tewas. Hingga hari ke-18, ia bersembunyi di telaga.
+        Namun, Pandawa kini mengetahui keberadaannya. Ia meminta bantuan kepada Batara Kresna</string>
+    <string name="storyTextDuryudana12a.1">Duryudana memberi syarat,</string>
+    <string name="storyTextDuryudana12a.2">"Aku hanya akan berperang lagi jika aku diberi senjata dan jika Pandawa mau bertarung satu persatu."</string>
+    <string name="storyTextDuryudana12b">Duryudana meminta bantuan Batara Kresna untuk mengalahkan Pandawa</string>
+    <string name="storyTextDuryudana14">Pandawa berhasil dikalahkan Duryudana</string>
+    <string name="storyTextDuryudana13">Pandawa menyetujui tantanganmu. Di tengah pertarungan, Bima memukul paha Duryudana dan ia tewas di tangan Bima.</string>
     <string name="end">TAMAT</string>
-
 
 
     <string name="storyChoiceBegin">Yudistira</string>

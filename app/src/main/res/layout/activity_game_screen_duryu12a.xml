@@ -72,25 +72,6 @@
         app:layout_constraintVertical_bias="0.04000002" />
 
     <TextView
-        android:id="@+id/storyText3"
-        android:layout_width="305dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="24dp"
-        android:fontFamily="@font/play"
-        android:text="@string/storyTextDuryudana12a.3"
-        android:textAlignment="center"
-        android:textColor="#ffffff"
-        android:textSize="12sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/storyText2"
-        app:layout_constraintVertical_bias="0.029999971" />
-
-    <TextView
         android:id="@+id/textBeginC2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

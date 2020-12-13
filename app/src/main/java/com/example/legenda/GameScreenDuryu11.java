@@ -115,22 +115,11 @@ public class GameScreenDuryu11 extends AppCompatActivity {
         stopService(music);
         mHomeWatcher.stopWatch();
     }
-    public boolean getBoolean(String key){
-        SharedPreferences sp = getApplicationContext().getSharedPreferences("DuryudanaChoices", Context.MODE_PRIVATE);
-        return sp.getBoolean(key, false);
+    public void nextChoice(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
+        startActivity(intent);
     }
-    public void selectChoice1(View view){//MoveLayout to MainMeny after game end
-        boolean isKresna = getBoolean("isKresna");
-        if(isKresna){
-            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12B.class);
-            startActivity(intent);
-        }
-        else{
-            Intent intent = new Intent(GameScreenDuryu11.this, GameScreenDuryu12A.class);
-            startActivity(intent);
-        }
 
-    }
     @Override
     public void onBackPressed() {
 

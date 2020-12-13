@@ -113,7 +113,7 @@ public class GameScreenDuryu12A extends AppCompatActivity {
     }
 
     public void nextChoice(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenDuryu12A.this, GameScreenDuryuOver.class);
+        Intent intent = new Intent(GameScreenDuryu12A.this, GameScreenDuryu13.class);
         startActivity(intent);
     }
 

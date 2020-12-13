@@ -119,7 +119,7 @@ public class GameScreenDuryu10B extends AppCompatActivity {
         startActivity(intent);
     }
     public void selectChoice2(View view){
-        Intent intent = new Intent(GameScreenDuryu10B.this, GameScreenDuryu11.class);
+        Intent intent = new Intent(GameScreenDuryu10B.this, GameScreenDuryu11B.class);
         saveBoolean("isKresna", true);
         startActivity(intent);
     }

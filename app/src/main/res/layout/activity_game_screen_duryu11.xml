@@ -28,7 +28,7 @@
         android:layout_marginEnd="48dp"
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_background"
-        android:onClick="selectChoice1"
+        android:onClick="nextChoice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -41,7 +41,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/play"
-        android:text="@string/storyTextDuryudana11"
+        android:text="@string/storyTextDuryudana11a"
         android:textAlignment="center"
         android:textColor="#ffffff"
         android:textSize="12sp"
