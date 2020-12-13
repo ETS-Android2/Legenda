@@ -13,7 +13,7 @@
         android:layout_height="190dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/textbox"
+        android:background="@drawable/textbox1"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -54,7 +54,7 @@
 
     <TextView
         android:id="@+id/storyText2"
-        android:layout_width="305dp"
+        android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"

@@ -113,7 +113,7 @@ public class GameScreenDuryu10A extends AppCompatActivity {
     }
 
     public void selectChoice1(View view){//MoveLayout to MainMeny after game end
-        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11B.class);
+        Intent intent = new Intent(GameScreenDuryu10A.this, GameScreenDuryu11.class);
         saveBoolean("isKresna", false);
         startActivity(intent);
     }

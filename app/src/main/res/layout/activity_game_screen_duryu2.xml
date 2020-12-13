@@ -13,17 +13,17 @@
         android:layout_height="190dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@drawable/textbox"
+        android:background="@drawable/textbox1"
         app:layout_constraintBottom_toTopOf="@+id/buttonBeginC1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintVertical_bias="0.978" />
 
     <TextView
         android:id="@+id/storyText"
-        android:layout_width="305dp"
+        android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.16000003" />
+        app:layout_constraintVertical_bias="0.161" />
 
     <ImageButton
         android:id="@+id/buttonBeginC1"
