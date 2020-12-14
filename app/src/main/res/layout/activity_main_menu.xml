@@ -11,7 +11,7 @@
         android:id="@+id/mainMenuLogo"
         android:layout_width="340dp"
         android:layout_height="370dp"
-        android:src="@drawable/applogo"
+        android:src="@drawable/transparent_applogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
