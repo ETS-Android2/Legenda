@@ -112,8 +112,8 @@ public class GameScreenDuryu13 extends AppCompatActivity {
         mHomeWatcher.stopWatch();
     }
 
-    public void nextChoice(View view){//MoveLayout to next GameScreen c2
-        Intent intent = new Intent(GameScreenDuryu13.this, TheEnd.class);
+    public void goBack(View view){//MoveLayout to next GameScreen c2
+        Intent intent = new Intent(GameScreenDuryu13.this, MainMenu.class);
         startActivity(intent);
     }
     @Override

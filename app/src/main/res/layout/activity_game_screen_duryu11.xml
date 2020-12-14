@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameScreenDuryu11"
-    android:background="@drawable/yudistira3">
+    android:background="@drawable/duryudana11"
+    tools:context=".GameScreenDuryu11">
 
     <TextView
         android:id="@+id/textView"
@@ -26,7 +26,7 @@
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/play"

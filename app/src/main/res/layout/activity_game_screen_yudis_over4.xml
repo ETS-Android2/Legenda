@@ -33,7 +33,7 @@
         android:fontFamily="@font/play"
         android:text="@string/game_over"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/yellow"
         android:textSize="12sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="@+id/textView"
