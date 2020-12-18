@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/YudisRevised12"
+    android:background="@drawable/yudisrevised12"
     tools:context=".GameScreenYudis9A">
 
 
