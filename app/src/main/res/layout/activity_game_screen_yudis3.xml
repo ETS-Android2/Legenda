@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameScreenYudis3"
-    android:background="@drawable/yudistira3">
+    android:background="@drawable/YudisRevised3"
+    tools:context=".GameScreenYudis3">
 
     <TextView
         android:id="@+id/textView"
